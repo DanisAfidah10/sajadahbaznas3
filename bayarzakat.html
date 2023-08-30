@@ -1,0 +1,3183 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <!-- <meta name="description" content="Nikmati fasilitas kalkulator zakat dan layanan kemudahan pembayaran zakat, infaq, sedekah melalui fitur Bayar Zakat atau mitra zakat online BAZNAS lainnya" /> -->
+    
+    <meta name="author" content="root" />
+    <meta name="google-site-verification" content="XrjChdZLXfgJozLAUbTFz54Z6ZJxou0VA6UcztkdakI" />
+    <!-- <meta property="og:image" content="assets5/images/gallery/apple-touch-icon-114x114.png"/> -->
+    <meta property="og:image" content="assets5/images/gallery/baznas_logo_putih.jpg" />
+    <meta property="og:title" content="BAZNAS - BADAN AMIL ZAKAT NASIONAL" />
+    <meta property="og:description" content="SEMESTA KEBAJIKAN ZAKAT - Badan resmi dan satu-satunya yang dibentuk oleh pemerintah berdasarkan Keputusan Presiden RI N0. 8 Tahun 2001" />
+    <meta property="og:description" content="Badan Amil Zakat Nasional (BAZNAS) merupakan badan resmi dan satu-satunya yang dibentuk oleh pemerintah berdasarkan Keputusan Presiden RI No. 8 Tahun 2001 yang memiliki tugas dan fungsi menghimpun dan menyalurkan zakat, infaq, dan sedekah (ZIS) pada tingkat nasional."
+    />
+    <meta name="facebook-domain-verification" content="01q04p3gc8h6g56guhxw5k5bykb4uo" />
+    <!-- tiket id 3055 25/10/2021 -->
+    <title>BAZNAS</title>
+
+    <!-- <link rel="stylesheet" href="https://cedeen.netlify.app/font-awesome-5-pro/css/all.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets5/fontawesome/css/all.min.css">
+
+    <!-- Mematikan og meta di header , karena berbenturan dengan og meta yang ada per-halaman,
+kenapa harus di matikan ? karena header otomatis ter load di setiap halaman, 
+jika ada meta di header, maka akan menutupi semua meta yang sudah di buat per halaman
+
+ dan sistem hanya membaca meta yang ada header, meta yang sudah dbuatkan dihalaman akan mati 
+ (padahal di setiap halaman isi meta nya berbeda-beda)-->
+
+
+
+    <link id="favicon" rel="icon" href="assets5/images/gallery/favicon.ico" rel="shortcut icon" type="image/png" type="image/x-icon">
+
+    <link href="assets5/fonts/Roboto-condensed/roboto-condensed.css" rel="stylesheet">
+    <link href="assets5/css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="assets5/css/css-plugin-baznas-collections.css" rel="stylesheet">
+    <!-- <link href="assets5/css/css-plugin-collections.css" rel="stylesheet"> -->
+
+    <link href="assets5/css/style-main.css" rel="stylesheet">
+    <link href="assets5/css/responsive.css" rel="stylesheet">
+    <link href="assets5/css/colors/theme-skin-green.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script type='text/javascript' src="assets5/js/jquery-2.2.4.min.js"></script>
+    <script type='text/javascript' src="js/owl/owl.carousel.min.js"></script>
+    <!-- <script type="text/javascript" src="assets5/js/custom-baznas.js"></script>  -->
+    <!-- <script type="text/javascript" src="assets5/js/custom.js"></script> -->
+    <!-- <script class="load-plugin">
+        $(document).ready(function(){
+            var loadPlugin = {
+                css : $.ajax({ url: $(".jquery-plugin-css").data("src")                                                      }),
+                js : $.ajax({ url: $(".jquery-plugin-js").data("src")}),
+            };
+            var scriptJs = $.ajax({ url: $(".script-js").data("src") });
+            $.when(loadPlugin.css, loadPlugin.js, scriptJs).then(function(){
+                loadPlugin.css.done(function(data){
+                    $(".jquery-plugin-css").html(data);
+                });
+                loadPlugin.js.done(function(data){
+                    $(".jquery-plugin-js").html(data);
+                });
+                scriptJs.done(function(data){
+                    $(".script-js").html(data);
+            var fileref = document.createElement("link")
+            fileref.setAttribute("rel", "stylesheet")
+            fileref.setAttribute("type", "text/css")
+            fileref.setAttribute("th:href", "@{/filepath}")
+            fileref.setAttribute("href", "/filepath")
+            fileref.setAttribute("href", "../baznas.go.id/")
+                });
+            });
+        });
+    </script>
+ -->
+    <script src="assets5/js/bootstrap-3.3.7.min.js"></script>
+    <script src="assets5/js/jquery-ui-1.21.1.min.js"></script>
+    <script src="assets5/js/sweetalert-2.1.2.min.js"></script>
+    <script type='text/javascript' src="assets5/js/bootstrap-select-1.13.12.min.js"></script>
+    <script src="assets5/js/jquery-plugin-collection.js"></script>
+    <link href="assets5/js/revolution-slider/css/settings.css" rel="stylesheet">
+    <link href="assets5/js/revolution-slider/css/layers.css" rel="stylesheet">
+    <link href="assets5/js/revolution-slider/css/navigation.css" rel="stylesheet">
+    <link href="js/owl/assets5/owl.carousel.min.css" rel="stylesheet">
+    <link href="js/owl/assets5/owl.theme.default.min-width.css" rel="stylesheet">
+    <script src="assets5/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets5/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <script src="assets5/js/bootstrap-select-1.13.10.min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-777219646"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-777219646');
+    </script>
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-777219646/v17JCOCerpgBEL7czfIC',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+    <script src="assets5/js/timepicker.js"></script>
+    <script src="js/jquery.masknumber.min.js"></script>
+    <script type="text/javascript">
+        var url = '../baznas.go.id/';
+    </script>
+    <script src="js/meiomask-1.1.14.js"></script>
+    <script src="js/website.js?1683776506"></script>
+    <script type="text/javascript" src="js/jquery.formatCurrency-1.4.0.min.js"></script>
+
+    <style>
+        #menu_lelang {
+            display: none;
+        }
+
+        @media screen and (min-width: 768px) {
+            #menu_lelang {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 18em;
+                margin-top: -2.5em;
+                z-index: 999999;
+                background-color: red;
+                padding-right: 10px;
+                color: white;
+                text-align: center;
+                box-shadow: 5px 2px 2px black;
+                display: block;
+            }
+        }
+
+        @font-face {
+            font-family: gotham-light;
+            src: url('assets5/fonts/Gotham-Light.ttf');
+        }
+
+        @font-face {
+            font-family: gotham-medium;
+            src: url('assets5/fonts/Gotham-Medium.ttf');
+        }
+    </style>
+
+    <!-- Facebook Pixel Code -->
+
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '278249982706813');
+
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=278249982706813&ev=PageView
+&noscript=1"/>
+</noscript>
+
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TV5QRLS');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- 
+<script>
+    !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+    )ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+    ttq.load('C9F40ABC77U5U5I099S0');
+    ttq.page();
+    }(window, document, 'ttq');
+
+</script> -->
+
+
+    <meta name="google-site-verification" content="f_ml1T1jnvW2K8P49PRrzghwLHmSWKakaR9vean1gCU" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+    <!-- <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+</header>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+<style type="text/css">
+    .navbar {
+        min-height: 80px;
+    }
+
+    .navbar-brand {
+        padding: 0 15px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .navbar-toggle {
+        /* (80px - button height 34px) / 2 = 23px */
+        margin-top: 23px;
+        padding: 9px 10px !important;
+    }
+
+    #tombol-web-baru-header {
+        visibility: hidden;
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        .navbar-nav>li>a {
+            /* (80px - line-height of 27px) / 2 = 26.5px */
+            padding-top: 26.5px;
+            padding-bottom: 26.5px;
+            line-height: 27px;
+        }
+    }
+
+    @media (max-width:991px) {
+        #tombol-web-baru-header {
+            visibility: visible;
+            display: inline-block;
+        }
+        /* #logo-menu{
+
+  } */
+    }
+
+    /* The switch - the box around the slider */
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 27px;
+    }
+
+    /* Hide default HTML checkbox */
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    /* The slider */
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #005331;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider-mobile {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ffcb05;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 22px;
+        left: 0px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    .slider-mobile:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 22px;
+        left: 0px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked+.slider {
+        background-color: #ccc;
+    }
+
+    input:checked+.slider-mobile {
+        background-color: #ccc;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px #ccc;
+    }
+
+    input:focus+.slider-mobile {
+        box-shadow: 0 0 1px #ccc;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(35px);
+        -ms-transform: translateX(35px);
+        transform: translateX(35px);
+    }
+
+    input:checked+.slider-mobile:before {
+        -webkit-transform: translateX(35px);
+        -ms-transform: translateX(35px);
+        transform: translateX(35px);
+    }
+
+    /* Rounded sliders */
+
+    .slider.round {
+        border-radius: 32px;
+    }
+
+    .slider-mobile.round {
+        border-radius: 32px;
+        box-shadow: 1px 1px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+    .slider-mobile.round:before {
+        border-radius: 50%;
+        box-shadow: 1px 1px;
+    }
+
+    .ket-switch {
+        font-size: 14px;
+        font-weight: bold;
+        color: #005331;
+        margin-left: 10px;
+        margin: auto;
+    }
+
+    .ket-switch-mobile {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-left: 5px;
+        margin-top: 150px;
+        top: 5px;
+        position: relative;
+    }
+
+    .div-switch {
+        margin-top: 15%;
+    }
+
+    a.nonaktif {
+        /* pointer-events: none; */
+        cursor: default;
+    }
+</style>
+
+<body id="home" class="has-side-panel side-panel-right fullwidth-page side-push-panel" style="padding-top: 100px;">
+    <div class="body-overlay"></div>
+    <!-- <header class="header navbar-scrolltofixed"> -->
+    <header class="header navbar-default navbar-fixed-top">
+        <!-- Dijadikan fixed top.. Tiket ID : 2646  -->
+        <div class="header-nav ">
+            <div class="header-nav-wrapper bg-lightest">
+                <nav class="navbar navbar-default bg-lightest">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+                            <a class="navbar-brand" href="#">
+                <img id="logo-menu" class="hidden-lg" src="assets5/images/logo_baznas_mobile.png" alt="BAZNAS" style="display: block; float:left; padding-right: 5%; height: 90%; width: 100px;" class="">
+              <img class="hidden-xs hidden-sm hidden-md" style="padding-left:5%;display:block;width:340px;height: auto; padding-top: 3px" src="assets5/images/Logo Header.png" class="" alt="BAZNAS">
+            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right" style="padding-right:5% !important;">
+                                <li style="width: 100px">
+                                    <a data-toggle="tooltip" data-toggle="modal" href="#footer"><span style=" font-family: 'Roboto Condensed', sans-serif; padding: 10px;border-radius: 5px; font-size: 18px;">Contact</span></a>
+                                </li>
+
+                                <!-- <li style="display: flex; padding: 10px; margin-top: 8px; width: 100px;">
+                                    <div id="google_translate_element" class="hidden-xs hidden-sm"></div>
+                                    <script type="text/javascript">
+                                        function googleTranslateElementInit() {
+                                            new google.translate.TranslateElement({
+                                                pageLanguage: 'id'
+                                            }, 'google_translate_element');
+                                        }
+                                    </script>
+
+                                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                                </li> -->
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- </div>
+      </div>
+    </div> -->
+    </header>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById("buttonWebBaru").onclick = function() {
+            window.location.replace("../baznas.go.id/v2/");
+        };
+    </script>
+
+    <script type="text/javascript">
+        document.getElementById("buttonWebBaru2").onclick = function() {
+            window.location.replace("../baznas.go.id/v2/");
+        };
+    </script>
+    <!DOCTYPE html>
+    <html dir="ltr" lang="en">
+
+    <head>
+
+
+        <!--  Primary Meta Tags -->
+
+        <title>Badan Amil Zakat Nasional | BAZNAS</title>
+
+
+        <meta name="title" content="Bayar Zakat">
+
+        <meta name="description" content="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang.">
+
+        <!--  ------------------ -->
+
+
+        <!--Google meta tag verify-v1 -->
+
+        <meta name="verify-v1" content="w8n4yv6y5UMizNliL4BJHMDftEw940midMVTLMAYGs8 ">
+        <link rel="canonical" href="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang." />
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="Bayar Zakat">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="initial-scale = 1.0, user-scalable = no, width=device-width, height=device-height, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+        <!-- Google / Search Engine Tags -->
+
+        <meta itemprop="name" content="Kemudahan Pembayaran Zakat">
+
+        <meta itemprop="description" content="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang.">
+
+        <meta itemprop="image" content="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png">
+
+        <meta name="google-site-verification" content="w8n4yv6y5UMizNliL4BJHMDftEw940midMVTLMAYGs8" />
+
+
+        <!-- Open Graph / Facebook -->
+
+        <meta property="og:url" content="../baznas.go.id/bayarzakat" />
+
+        <meta property="og:type" content="website">
+
+        <meta property="og:title" content="Bayar Zakat">
+
+        <meta property="og:description" content="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang." />
+
+
+        <meta property="og:site_name" content="Bayar Zakat" />
+        <meta property="article:section" content="Bayar Zakat" />
+        <meta property="article:tag" content="Bayar Zakat" />
+        <meta property="fb:admins" content="../baznas.go.id/bayarzakat" />
+
+
+        <!-- Multiple og:image tags for a page -->
+
+        <meta property="og:image" content="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png" />
+        <meta property="og:image:type" content="image/jpg/jpeg/png/webp" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="600" />
+
+
+        <meta property="og:image" content="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png" />
+        <meta property="og:image:type" content="image/jpg/jpeg/png/webp" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+
+        <!-- ------------------------------------------- -->
+
+
+        <!-- Robots Meta Tags -->
+
+        <meta name="robots" content="index, follow" />
+
+        <!-- Whatsapp Meta Tags -->
+
+
+        <meta content="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang." itemprop="headline" />
+
+        <meta content="../baznas.go.id/bayarzakat" itemprop="url" />
+
+
+        <meta name="copyright" content="BAZNAS" itemprop="dateline" />
+
+        <meta name="description" content="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang." itemprop="description" />
+
+
+        <meta name="keywords" content="Zakat, Bayar Zakat, Sedekah" itemprop="keywords" />
+        <meta name="thumbnailUrl" content="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png" itemprop="thumbnailUrl" />
+
+
+        <link itemprop="thumbnailUrl" href="../baznas.go.id/application/views\assets5/\meta_base\Halaman_Bayar_Zakat\Meta-Tags.png">
+
+
+        <!-- Twitter Meta Tags -->
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Bayar Zakat">
+        <meta name="twitter:description" content="Nikmati kemudahan pembayaran zakat, infaq/sedekah sesuai syariah islam secara online via website BAZNAS. Tunaikan zakat, infaq/sedekah anda sekarang." />
+
+        <meta name="twitter:site" content="@baznasindonesia" />
+        <meta name="twitter:site:id" content="@baznasindonesia" />
+        <meta name="twitter:creator" content="@baznasindonesia" />
+
+
+        <meta name="twitter:image" content="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png">
+
+        <meta name="twitter:image:src" content="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png" />
+
+        <meta name="keywords" content="Zakat, Bayar Zakat, Sedekah">
+
+        <meta name="author" content="BAZNAS">
+
+
+
+        <!-- Facebook Pixel Code -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+        <script type='text/javascript' src="js/clipboard.js"></script>
+        <script>
+            ! function(f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function() {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '278249982706813');
+            fbq('track', 'PageView');
+        </script>
+
+        <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=278249982706813&ev=PageView
+&noscript=1" />
+  </noscript>
+
+        <!-- End Facebook Pixel Code -->
+        <style type="text/css">
+            /* .radioselect {
+      visibility: hidden;
+    } */
+
+            .trpayment {
+                cursor: pointer;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .radioselect:checked+.radiolabel {
+                background: red;
+            }
+
+            .typefontclass {
+                font-family: 'Inter', sans-serif;
+                ;
+            }
+
+            .tooltip {
+                position: relative;
+                display: inline-block;
+            }
+
+            .tooltip .tooltiptext {
+                visibility: hidden;
+                width: 140px;
+                background-color: #555;
+                color: #fff;
+                text-align: center;
+                border-radius: 6px;
+                padding: 5px;
+                position: absolute;
+                z-index: 1;
+                bottom: 150%;
+                left: 50%;
+                margin-left: -75px;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+
+            .tooltip .tooltiptext::after {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #555 transparent transparent transparent;
+            }
+
+            .tooltip:hover .tooltiptext {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            @media only screen and (device-width: 768px) {
+                /* default iPad screens */
+                .main-content {
+                    padding-top: 0px;
+                }
+            }
+
+            @media only screen and (min-device-width: 481px) and (max-device-width: 1180px) and (orientation:landscape) {
+                /* For landscape layouts only */
+                .main-content {
+                    padding-top: 0px;
+                }
+            }
+
+            @media only screen and (max-device-width: 480px) {
+                /* styles for mobile browsers smaller than 480px; (iPhone) */
+                .main-content {
+                    padding-top: 0px;
+                }
+            }
+
+            .tab {
+                overflow: hidden;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .tab button.tablinks {
+                background-color: inherit;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 10px 20px;
+                font-size: 16px;
+                width: 100%;
+            }
+
+            .tab-container {
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .tab button.active,
+            .tab button.tablinks:hover {
+                color: green;
+                border-bottom: 3px solid green;
+            }
+
+            .tabcontent {
+                display: none;
+                padding: 6px 12px;
+                border-top: none;
+            }
+
+            .tabcontent.active {
+                display: block;
+            }
+
+            .desc-zakat {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: center;
+                color: #000000;
+                max-width: 500px;
+                /* lebar maksimum pada tampilan desktop */
+                margin: 0 auto;
+                /* mengatur elemen h4 menjadi berada di tengah */
+                margin-top: 15px;
+            }
+
+            .segment-content {
+                box-shadow: 1.5px 1px 10px rgba(119, 119, 119, 0.2);
+                border-radius: 10px;
+                background: #FFFFFF;
+                padding: 24px 32px;
+            }
+
+            .segment-content-method {
+                box-shadow: 1.5px 1px 10px rgba(119, 119, 119, 0.2);
+                border-radius: 10px;
+                background: #FFFFFF;
+                padding: 5px 32px;
+                padding-bottom: 0px;
+                margin-bottom: 10px;
+                padding-top: 7px;
+            }
+
+            @media only screen and (max-width: 767px) {
+                /* mengatur tampilan pada layar dengan lebar maksimum 767px, yaitu tampilan mobile */
+                .desc-zakat {
+                    max-width: 400px;
+                    font-size: 18px;
+                    /* lebar maksimum pada tampilan mobile */
+                }
+                .segment-content {
+                    box-shadow: 1.5px 1px 10px rgba(119, 119, 119, 0.2);
+                    border-radius: 10px;
+                    background: #FFFFFF;
+                    padding: 8px 14px;
+                    padding-bottom: 16px;
+                }
+                .segment-content-method {
+                    box-shadow: 1.5px 1px 10px rgba(119, 119, 119, 0.2);
+                    border-radius: 10px;
+                    background: #FFFFFF;
+                    padding: 8px 14px;
+                    margin-bottom: 10px;
+                    padding-top: 7px;
+                    padding-bottom: 2px;
+                }
+                .ver-text {
+                    font-size: 10px;
+                }
+            }
+
+            .labels-field {
+                font-weight: 600;
+                font-size: 18px;
+                color: black;
+                margin-top: 40px;
+            }
+
+            input,
+            label,
+            p,
+            span,
+            font,
+            button {
+                font-family: 'Inter', sans-serif;
+            }
+
+            /* .table-cell {
+      text-align: left;
+      width: 50px;
+      vertical-align: middle;
+    }
+
+    .table-cell span {
+      display: inline-block;
+      line-height: normal;
+      vertical-align: middle;
+      font-size: 50px;
+    } */
+
+            .table {
+                margin-bottom: 0px;
+            }
+
+            .option-calc {
+                /* Auto layout */
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 6px 12px;
+                gap: 4px;
+                /* width: 93px;
+      height: 31px; */
+                /* Label/Active */
+                border: 1px solid #D9D9D9;
+                border-radius: 4px;
+                color: #666666;
+                /* Inside auto layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                cursor: pointer;
+            }
+
+            .active-calc {
+                background: #259047;
+                color: white;
+                font-weight: 700;
+            }
+
+            .xenditdisabledid,
+            .linkajadisabledid {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 10px;
+                height: 10px;
+                z-index: 2;
+            }
+
+            .radioselectpembayaran {
+                position: relative;
+                z-index: 1;
+            }
+
+            .disabledicon {
+                margin-top: 4px;
+                width: 13px;
+                height: 13px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 2;
+            }
+
+            .bankimgicon {
+                height: 22px;
+            }
+        </style>
+
+    </head>
+
+
+
+    <body>
+
+
+        <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+    <link itemprop="url" href="assets5/meta_base/Halaman_Bayar_Zakat/Meta-Tags.png">
+
+  </span>
+
+
+
+
+        <div class="main-content">
+            <!-- Section: inner-header -->
+            <div class="container">
+                <!-- Section Content -->
+                <div class="section-content text-center">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <!-- <a href="#" target="_blank"><img class="img-fluid img-rounded" src="assets5/images/banner_maintenance_bayar_zakat.png" alt="Zakat" ></a><br> -->
+                            <a href="#" target="_blank" style="padding-bottom: 100px;"><img class="img-fluid img-rounded" src="assets5/images/banner_zakat.jpg" alt="Zakat" style="padding-top: 0;"></a><br>
+                            <!--  <h4 class="text-center">Tunaikan Zakat, Infak, Sedekah Anda</h4>
+
+                  <p class="text-center">Selamat datang di halaman zakat online BAZNAS.</p>
+                  <p class="text-center">Silahkan mengisi formulir di bawah ini.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+
+                <!-- <div class="container"> -->
+                <form name="bayarzakatform" id="bayarzakatform" class="clearfix" onsubmit="return submitForm()">
+                    <div class="row">
+
+                        <div class="col-md-6 col-md-offset-3" id="signstep">
+                            <h4 class="desc-zakat" style=" font-style: normal; font-weight: 700; line-height: 30px; text-align: center; color: #000000; ">
+                                TUNAIKAN ZAKAT, INFAK, DAN SEDEKAH ANDA DENGAN <span style="color: green;"> AMAN DAN MUDAH </span>
+                            </h4>
+                            <!-- <div> -->
+                            <!-- <div class="mb-10 text-center" style="background-color: #ffcb05; padding-top: 0px; padding-bottom: 0px;">
+          <h4 class="text-dark" style="font-family: 'Roboto Condensed', sans-serif;"><font style="font-family: 'Inter', sans-serif;;">Pilih Jenis Dana</font></h4>
+        </div> -->
+
+                            <div class="tab">
+                                <div class="tab-container">
+                                    <button class="tablinks active" onclick="openTab(event, 'tab1')">Bayar</button>
+                                    <button class="tablinks" onclick="openTab(event, 'tab2')">Kalkulator</button>
+                                </div>
+                                <div id="tab1" class="tabcontent active">
+                                    <div class="segment-content">
+                                        <span class="labels-field">Pilih Jenis Dana</span>
+                                        <div id="types" class="form-group form-group-sm">
+                                            <select id="type_of_fund" style="height: 50px; font-size: 15px; font-family: 'Inter', sans-serif;" class="form-control" onchange="detectfitrah();detectfidyah();detectkurban();getSubType();updatePayScreen();detectkurban();" name="type_of_fund">
+
+                      <option value="zakat">Zakat</option>
+                      <!-- <option value="kurban">Kurban</option> -->
+                      <option value="infak">Infak/Sedekah</option>
+                      <option value="sedekah">Sedekah BAZNAS</option>
+                      <option value="fidyah">Fidyah</option>
+
+                    </select>
+                                            <input id="platform" name="platform" class="form-control" type="hidden" value="website">
+                                            <input id="npwz" name="npwz" class="form-control" type="hidden">
+                                            <input id="idk" name="idk" class="form-control" type="hidden">
+                                        </div>
+
+                                        <div id="subtypes" class="form-group form-group-sm">
+                                            <select style="height: 50px; font-size: 15px; font-family: 'Inter', sans-serif;;" class="form-control" name="subtype_of_fund" id="jenis" onchange="detectfitrah();detectfidyah();detectkurban();updatePayScreen();return false;">
+                    </select>
+                                        </div>
+
+
+                                        <div style="padding-bottom: 10px;" class="input-group" id="zakatfitrahgroup">
+                                            <span class="input-group-addon">Jumlah Jiwa</span>
+                                            <select style="font-family: 'Inter', sans-serif;;" name="jumlahjiwa" id="jumlahjiwaid" class="form-control" onchange="calcfitrah();updatePayScreen();return false;">
+                      <option value="0" disabled selected="">Pilih Jumlah Jiwa</option>
+                      <option value="1">1 Jiwa</option>
+                      <option value="2">2 Jiwa</option>
+                      <option value="3">3 Jiwa</option>
+                      <option value="4">4 Jiwa</option>
+                      <option value="5">5 Jiwa</option>
+                      <option value="6">6 Jiwa</option>
+                      <option value="7">7 Jiwa</option>
+                      <option value="8">8 Jiwa</option>
+                      <option value="9">9 Jiwa</option>
+                      <option value="10">10 Jiwa</option>
+
+                    </select>
+                                            <!-- <input  id="nominal" class="form-control" minlength="3" maxlength="50" type="text"
+                  name="nominal" placeholder="" onchange="" required=""
+                  oninvalid="this.setCustomValidity('Min. 3 Karakter')" oninput="setCustomValidity('');updatePayScreen();"> -->
+                                        </div>
+
+                                        <div style="padding-bottom: 10px;" class="input-group" id="fidyahgroup">
+                                            <span class="input-group-addon">Jumlah Hari</span>
+                                            <select style="font-family: 'Inter', sans-serif;;" name="hari" id="hariid" class="form-control" onchange="calcfidyah();updatePayScreen();return false;">
+                      <!-- <option value="" selected=""></option> -->
+                      <!-- <option value="1">1</option> -->
+                      <option value="0" selected="">Pilih Jumlah Hari</option>
+                      <option value="1">1</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+
+                    </select>
+                                            <!-- <input  id="nominal" class="form-control" minlength="3" maxlength="50" type="text"
+                  name="nominal" placeholder="" onchange="" required=""
+                  oninvalid="this.setCustomValidity('Min. 3 Karakter')" oninput="setCustomValidity('');updatePayScreen();"> -->
+                                        </div>
+
+                                        <div class="" id="inputqurban">
+                                            <div style="width:190px; float: left; ">
+                                                <font size="2"><span>Jumlah Hewan Kurban</span></font>:
+                                            </div>
+                                            <!-- <label for="pendapatan" class="text-center col-sm-2 control-label"> <span id="labelopt"></span></label> -->
+                                            <div align="right" style="min-width: 300px">
+                                                <!-- <input type="" class="form-control" id="nominal1" class="nums" placeholder="" data-mask="integer" readonly="true"> -->
+                                                <select name="jumlahkambing" class="form-control" id="jumlahkambing" onchange="detectmanykurban(); return false;">
+                        <!-- <option value=""></option> -->
+                        <option value="1" selected="">1 Ekor</option>
+                        <option value="2">2 Ekor</option>
+                        <option value="3">3 Ekor</option>
+                        <option value="4">4 Ekor</option>
+                        <option value="5">5 Ekor</option>
+                        <option value="6">6 Ekor</option>
+                        <option value="7">7 Ekor</option>
+                      </select>
+                                                <br />
+                                                <!--  <input type="checkbox" value="bersedia ganti sapi" name="gantisapi" id="gantisapiid" style="float: left;" />&nbsp;<span style="float:left; padding-left: 10px;">Saya bersedia digabungkan kurbannya menjadi 1 sapi</span> -->
+                                            </div>
+                                        </div>
+
+
+                                        <div class="" id="atasnama"></div>
+
+                                        <div>
+                                            <div class="">
+                                                <!-- <h5><font style="font-family: 'Inter', sans-serif;" >Masukkan Nominal:</font></h5> -->
+                                                <span class="labels-field">Masukkan Nominal:</span>
+                                            </div>
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" style="font-family: 'Inter', sans-serif;">Rp.</span>
+                                            <input style="font-family: 'Inter', sans-serif;" id="nominal" class="form-control" minlength="3" maxlength="50" type="text" pattern="[0-9]*" inputmode="numeric" min="100" name="nominal" placeholder="" onchange="" required="" readonly="" onClick="this.select();"
+                                                oninvalid="this.setCustomValidity('Min. 3 Karakter')" oninput="setCustomValidity('');updatePayScreen();">
+                                        </div>
+                                    </div>
+                                    </br>
+                                    <div class="segment-content">
+                                        <div>
+                                            <div class="">
+                                                <span class="labels-field">Silahkan lengkapi data di bawah ini:</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group form-group-sm">
+
+
+
+                                            <!-- <select style="height: 50px; font-size: 15px;" class="form-control mb-10" id="user_title" name="user_title" required="">
+                    <option value="" disabled selected="">Sapaan</option>
+                    <option value="Bapak">Bapak</option>
+                    <option value="Ibu">Ibu</option>
+                  </select> -->
+
+                                            <div class=" mb-10" style="padding-top: 5px;">
+                                                <!-- <span class="input-group-addon"><i class="fa fa-user"></i></span> -->
+                                                <input style="height: 50px; font-size: 15px; font-family: 'Inter', sans-serif;;" id="name" class="form-control" minlength="3" maxlength="50" type="text" name="user_name" placeholder="Nama Lengkap" onchange="" oninvalid="this.setCustomValidity('Min. 3 Karakter')"
+                                                    oninput="setCustomValidity('')">
+                                            </div>
+
+                                            <input type="radio" id="bapak" name="user_title" value="Bapak">
+                                            <label style="font-weight: none;" for="bapak">Bapak</label>
+                                            <input style="margin-left: 10px;" type="radio" id="ibu" name="user_title" value="Ibu">
+                                            <label style="font-weight: none;" for="ibu">Ibu</label>
+
+                                            <div class=" mb-10" style="padding-top: 5px;">
+                                                <!-- <span class="input-group-addon"><i class="fa fa-phone"></i></span> -->
+                                                <input style="height: 50px; font-size: 15px; font-family: 'Inter', sans-serif;" class="form-control" minlength="10" maxlength="13" placeholder="Nomor Handphone" type="tel" id="handphone" name="user_phone" onchange="" pattern="\d\d\d\d\-\d\d\d\d\d\d\d"
+                                                    oninvalid="this.setCustomValidity('Min. 10 nomor')" oninput="setCustomValidity('')">
+                                            </div>
+
+                                            <div class=" mb-10" style="padding-top:5px;">
+                                                <!-- <span class="input-group-addon"><i class="fa fa-envelope"></i></span> -->
+                                                <input style="height: 50px; font-size: 15px;" class="form-control" maxlength="60" id="email" name="email" placeholder="Email" onchange="" type="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" oninvalid="this.setCustomValidity('Email Tidak Valid')"
+                                                    oninput="setCustomValidity('')">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group form-group-sm" style="margin-top: 10px;">
+                                        <div id="preference_data" class="mb-10" style="padding-top:5px;">
+                                            <input type="checkbox" id="cookies" name="cookies" value="acceptcookies">
+                                            <span style="text-align:justify; font-size:12px; font-style: italic; font-family: 'Inter', sans-serif;;" for="cookies">Untuk kemudahan pengisian data secara otomatis pada pembayaran selanjutnya, Saya menyetujui adanya penggunaan cookies pada laman ini.</span>
+                                        </div>
+                                        <div class="input-group mb-10" style="padding-top:5px;">
+                                            <!-- <p style="font-size:12px;font-style: italic;">*Dengan mengisi formulir ini, donatur akan menerima Bukti Setor Zakat (BSZ), laporan penyaluran, info layanan BAZNAS melalui email & whatsapp</p> -->
+                                            <!-- <span style="text-align:justify; font-size: 12px; color:#000000; font-family: 'Inter', sans-serif; font-style: italic;"> Dengan mengisi formulir ini, donatur akan menerima Bukti Setor Zakat (BSZ), laporan penyaluran, info layanan BAZNAS melalui email & whatsapp. </span> -->
+                                            <span style="text-align:justify; font-size:12px; font-family: 'Inter', sans-serif;" for="cookies">Dengan mengisi formulir ini, donatur akan menerima Bukti Setor Zakat (BSZ), laporan penyaluran, info layanan BAZNAS melalui email & whatsapp.</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <a href="#" id="next-button" class="btn btn-lg btn-block mt-5 mb-5 text-white js-scroll-trigger" href="#" style="background: #259047; font-family: 'Inter', sans-serif;">
+                                                <font style="font-family: 'Inter', sans-serif; font-size:18px;">Pilih Pembayaran</font>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div id="tab2" class="tabcontent">
+                                    <div style="display:flex; width:50%; margin-bottom: 28px; margin-top: 19px; ">
+                                        <div onclick="zakatmaalchoosed()" id="opt-zakat-maal" class="option-calc">Zakat Maal</div>
+                                        <div onclick="zakathasilchoosed()" id="opt-zakat-penghasilan" style="margin-left: 5px;" class="option-calc">Zakat Penghasilan</div>
+                                        <div onclick="zakatperdaganganchoosed()" id="opt-zakat-perdagangan" style="margin-left: 5px" class="option-calc">Zakat Perdagangan</div>
+                                        <div onclick="zakatsimpananchoosed()" id="opt-zakat-simpanan" style="margin-left: 5px;" class="option-calc">Zakat Simpanan</div>
+                                    </div>
+
+
+                                    <!-- <label for="form_post">Jenis Zakat</label>
+                  <select id="jenis_calc" name="form_post" class="form-control required" onchange="getForm();">
+                    <option value=""></option>
+                    <option value="zakatpenghasilan">Zakat Penghasilan</option>
+                    <option value="zakatmaal">Zakat Maal</option>
+                  </select> -->
+
+                                    <div id="penghasilan">
+                                        <form id="" name="" class="mt-30" method="post" action="">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group mb-10">
+                                                        <label style="color:#000" for="">Jumlah pendapatan per bulan</label>
+                                                        <input name="" class="form-control numbersOnly" type="text" id="pendapatan" inputmode="numeric" value="0" required="" aria-required="true" style="text-align: right;" onClick="this.select();">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group mb-10">
+                                                        <label style="color:#000" for="">Bonus, THR dan lainnya</label>
+                                                        <input name="" class="form-control numbersOnly" type="text" id="lainnya" inputmode="numeric" value="0" required="" aria-required="true" style="text-align: right;" onClick="this.select();">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="display: flex; align-items: center; background: #E3F3FF; padding: 10px 12px; font-size: 11px;">
+                                                <img src="https://cdn.pixabay.com/photo/2013/04/01/10/54/warning-98596_960_720.png" alt="Tanda Seru" style="margin-right: 5px;" height="30">
+                                                <span style="text-align: justify; margin-left:5px;  color: #000000; ">
+                        Informasi yang Anda masukkan ke dalam kalkulator zakat akan dibagikan ke BAZNAS untuk tujuan perhitungan zakat dan diproses oleh BAZNAS sesuai dengan kebijakan privasi BAZNAS.
+                      </span>
+                                            </div>
+
+                                            <!-- <p class="mb-10" style="text-align: justify; background: #E3F3FF;padding: 18px 12px; color: #000000; font-size: 11px;"> <img src="https://static.vecteezy.com/ti/vecteur-libre/p1/3266522-icone-ligne-pour-important-vectoriel.jpg" alt="Tanda Seru">Informasi yang Anda masukkan ke dalam kalkulator zakat akan dibagikan ke BAZNAS untuk tujuan perhitungan zakat dan diproses oleh BAZNAS sesuai dengan kebijakan privasi BAZNAS.</p> -->
+                                            <div class="form-group mb-0 mt-20" style=" display:flex; justify-content:space-around;">
+                                                <input name="" class="form-control" type="hidden" value="">
+
+                                                <div class="row" style="width: 100%; display:flex; justify-content:space-around; ">
+                                                    <div class="col-sm-6" style="width: 100%;">
+                                                        <button style="background-color:#fff; border: 1px solid #D9D9D9; border-radius: 4px; color:#393938; font-weight: 700;" onclick="resetpenghasilan();" class="btn btn-lg btn-block" data-loading-text="Please wait...">Reset</button>
+                                                    </div>
+                                                    <div class="col-sm-6" style="width: 100%;">
+                                                        <button onclick="hitungpenghasilan(); return false;" class="btn btn-lg btn-block" style="background: #259047; color: white; font-weight: 700;" data-loading-text="Please wait...">Hitung</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <hr>
+
+
+
+                                        <!--  <div id="bawahnishabpenghasilan">
+                      <p style="text-align: center; font-weight: bold;">Penghasilan Anda di bawah nishab zakat.</p>
+                      <div class="row">
+                        <div class="col-sm-6">
+                        <p>Pendapatan per bulan:</p>
+                        </div>
+                        <div class="col-sm-6">
+                        <p style="text-align: right;">123,-</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                        <p>Bonus, THR dan lainnya:</p>
+                        </div>
+                        <div class="col-sm-6">
+                        <p style="text-align: right;">0,-</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-12"><button class="btn btn-lg btn-block btn-theme-colored" data-loading-text="Please wait...">Hitung Ulang</button>
+                        </div>
+                      </div>
+                      <hr>
+                    </div> -->
+                                    </div>
+                                    <div id="valuepenghasilan" style="">
+                                        <p style="text-align: center; font-size: 18px;">Jumlah zakat penghasilan Anda:</p>
+                                        <p class="mb-10" style="font-size: 36px; text-align: center; font-weight: bold;"><span id="totalpendapatanlabel"></span>,-</p>
+                                        <div style="display:none;" id="batasnishab">
+                                            <p style="font-size: 14px; text-align: center; font-weight: bold; ">Penghasilan Anda belum mencapai nishab. <br> Anda tetap bisa menyempurnakan niat baik dengan bersedekah.</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>Pendapatan per bulan:</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p style="text-align: right;"><span id="pendapatanlabel"></span>,-</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>Bonus, THR dan lainnya:</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p style="text-align: right;"><span id="lainnyalabel"></span>,-</p>
+                                            </div>
+                                        </div>
+                                        <div id="hasilhitungpenghasilan" class="row" style="display: flex; justify-content:space-around">
+                                            <div class="col-sm-6"><button style="background: #fff; color: black; border: 1px solid #D9D9D9; border-radius: 4px; " onclick="ulangpenghasilan();" class="btn btn-lg btn-block" data-loading-text="Please wait...">Hitung Ulang</button>
+                                            </div>
+
+                                            <div class="col-sm-6" style="display: none; " id="bayarpenghasilan">
+                                                <button style="background: #259047; color: white;" onclick="bayarpenghasilan();" class="btn btn-lg btn-block btn-dark btn-theme-colored" data-loading-text="Please wait...">Bayar Zakat Penghasilan</button>
+                                            </div>
+
+                                            <div class="col-sm-6" style="display:none;" id="bayarsedekah">
+                                                <button style="background: #259047; color: white;" onclick="bayarSedekah();" class="btn btn-lg btn-block btn-dark" data-loading-text="Please wait...">Sedekah Sekarang</button>
+                                            </div>
+
+
+                                        </div>
+                                        <hr>
+                                    </div>
+
+                                    <div id="maal">
+
+                                        <form id="" name="" class="mt-30" method="post" action="">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group mb-10">
+                                                        <label style="color:#000" for="">Nilai emas, perak, dan/atau permata</label>
+                                                        <input name="" class="form-control numbersOnly" type="text" id="emasperak" inputmode="numeric" value="0" required="" aria-required="true" style="text-align: right;" onClick="this.select();">
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group mb-10">
+                                                        <label style="color:#000" for="">Uang tunai, tabungan, deposito</label>
+                                                        <input name="" class="form-control numbersOnly" type="text" id="tabungan" value="0" required="" inputmode="numeric" aria-required="true" style="text-align: right;" onClick="this.select();">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group mb-10">
+                                                        <label style="color:#000" for="">Kendaraan, rumah, aset lain</label>
+                                                        <input name="" class="form-control numbersOnly" type="text" id="kendaraan" value="0" required="" inputmode="numeric" aria-required="true" style="text-align: right;" onClick="this.select();">
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group mb-10">
+                                                        <label style="color:#000" for="">Jumlah hutang/cicilan (optional)</label>
+                                                        <input name="" class="form-control numbersOnly" type="text" id="hutang" value="0" required="" inputmode="numeric" aria-required="true" style="text-align: right;" onClick="this.select();">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="display: flex; align-items: center; background: #E3F3FF; padding: 10px 12px; font-size: 11px;">
+                                                <img src="https://cdn.pixabay.com/photo/2013/04/01/10/54/warning-98596_960_720.png" alt="Tanda Seru" style="margin-right: 5px;" height="30">
+                                                <span style="text-align: justify; margin-left:5px;  color: #000000; ">
+                        Informasi yang Anda masukkan ke dalam kalkulator zakat akan dibagikan ke BAZNAS untuk tujuan perhitungan zakat dan diproses oleh BAZNAS sesuai dengan kebijakan privasi BAZNAS.
+                      </span>
+                                            </div>
+
+                                            <div class="form-group mb-0 mt-20" style=" display:flex; justify-content:space-around;">
+                                                <input name="" class="form-control" type="hidden" value="">
+
+
+                                                <div class="row" style="width: 100%; display: flex; justify-content:space-around">
+                                                    <div class="col-sm-6" style="width: 100%;">
+                                                        <button style="background-color:#fff; border: 1px solid #D9D9D9; border-radius: 4px; color:#393938; font-weight: 700;" onclick="resetmaal();" class="btn btn-lg btn-block" data-loading-text="Please wait...">Reset</button>
+                                                    </div>
+                                                    <div class="col-sm-6" style="width: 100%;">
+                                                        <button onclick="hitungmaal(); return false;" class="btn btn-lg btn-block" style="background: #259047; color: white; font-weight: 700;" data-loading-text="Please wait...">Hitung</button>
+                                                    </div>
+                                                </div>
+
+                                                <!-- <button onclick="hitungmaal(); return false;" class="btn btn-lg btn-block btn-dark btn-theme-colored" style="background: #259047; color: white; font-weight: 700;"  data-loading-text="Please wait...">Hitung Zakat</button> -->
+
+
+
+                                            </div>
+                                        </form>
+                                        <hr>
+
+
+
+
+                                        <!--  <div id="bawahnishabmaal">
+                      <p style="text-align: center; font-weight: bold;">Harta Anda di bawah nishab zakat.</p>
+                      <div class="row">
+                        <div class="col-sm-6">
+                        <p>Emas, perak, permata:</p>
+                        </div>
+                        <div class="col-sm-6">
+                        <p style="text-align: right;">123,-</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                        <p>Tabungan dan lainnya:</p>
+                        </div>
+                        <div class="col-sm-6">
+                        <p style="text-align: right;">0,-</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                        <p>Kendaraan dan aset lain:</p>
+                        </div>
+                        <div class="col-sm-6">
+                        <p style="text-align: right;">0,-</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                        <p>Hutang dan cicilan:</p>
+                        </div>
+                        <div class="col-sm-6">
+                        <p style="text-align: right;">0,-</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-12"><button type="submit" class="btn btn-lg btn-block btn-theme-colored" data-loading-text="Please wait...">Hitung Ulang</button>
+                        </div>
+                      </div>
+                    <hr>
+                    </div> -->
+                                    </div>
+                                    <div id="valuemaal">
+                                        <p style="text-align: center; font-size: 18px;">Jumlah zakat maal Anda:</p>
+                                        <p class="mb-10" style="font-size: 36px; text-align: center; font-weight: bold;"><span id="jumlahmaallabel"></span>,-</p>
+                                        <div style="display:none;" id="batasnishabmaal">
+                                            <p style="font-size: 14px; text-align: center; font-weight: bold; ">Penghasilan Anda belum mencapai nishab. <br> Anda tetap bisa menyempurnakan niat baik dengan bersedekah.</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>Emas, perak, permata:</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p style="text-align: right;"><span id="emasperaklabel"></span>,-</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>Tabungan dan lainnya:</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p style="text-align: right;"><span id="tabunganlabel"></span>,-</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>Kendaraan dan aset lain:</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p style="text-align: right;"><span id="kendaraanlabel"></span>,-</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>Hutang dan cicilan:</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p style="text-align: right;"><span id="hutanglabel"></span>,-</p>
+                                            </div>
+                                        </div>
+                                        <div id="hasilhitungmaal" class="row" style="display: flex; justify-content:space-around">
+
+                                            <div class="col-sm-6"><button style="background: #fff; color: black; border: 1px solid #D9D9D9; border-radius: 4px; " onclick="ulangmaal();" class="btn btn-lg btn-block" data-loading-text="Please wait...">Hitung Ulang</button>
+                                            </div>
+
+                                            <div id="bayarmaal" style="display: none;" class="col-sm-6">
+                                                <button style="background: #259047; color: white;" onclick="bayarmaal();" class="btn btn-lg btn-block btn-dark " data-loading-text="Please wait...">Bayar Zakat Maal</button>
+                                            </div>
+
+                                            <div class="col-sm-6" style="display:none;" id="bayarsedekah_2">
+                                                <button style="background: #259047; color: white;" onclick="bayarSedekah();" class="btn btn-lg btn-block btn-dark" data-loading-text="Please wait...">Sedekah Sekarang</button>
+                                            </div>
+
+
+
+                                        </div>
+                                        <hr>
+                                    </div>
+
+
+                                    <script>
+                                        $(document).ready(function() {
+                                            $('#jenis_calc').val('zakatmaal');
+                                            $('#opt-zakat-maal').click();
+                                            $('#fitrah').hide();
+                                            $('#maal').show();
+                                            $('#penghasilan').hide();
+                                            $('#valuefitrah').hide();
+                                            $('#valuepenghasilan').hide();
+                                            $('#valuemaal').hide();
+                                            $('#bawahnishabpenghasilan').hide();
+                                            $('#bawahnishabmaal').hide();
+                                        });
+
+                                        function getForm() {
+
+                                            var jenis = $('#jenis_calc').val();
+                                            if (jenis == 'zakatfitrah') {
+                                                $('#fitrah').show();
+                                                $('#maal').hide();
+                                                $('#penghasilan').hide();
+                                                $('#valuepenghasilan').hide();
+                                                $('#valuemaal').hide();
+                                                $('#valuefitrah').hide();
+                                            } else if (jenis == 'zakatmaal') {
+                                                $('#fitrah').hide();
+                                                $('#maal').show();
+                                                $('#penghasilan').hide();
+                                                $('#valuepenghasilan').hide();
+                                                $('#valuemaal').hide();
+                                                $('#valuefitrah').hide();
+                                            } else if (jenis == 'zakatpenghasilan') {
+                                                $('#fitrah').hide();
+                                                $('#maal').hide();
+                                                $('#penghasilan').show();
+                                                $('#valuepenghasilan').hide();
+                                                $('#valuemaal').hide();
+                                                $('#valuefitrah').hide();
+                                            }
+                                        }
+
+                                        function hitungfitrah() {
+                                            $('#fitrah').hide();
+                                            $('#valuefitrah').show();
+                                            var jumlahjiwa = $('#jumlahjiwa').val();
+                                            // alert(jumlahjiwa);
+                                            var jumlahfitrah = parseInt(jumlahjiwa) * 40000;
+                                            $('#jumlahtanggunganlabel').empty();
+                                            $('#jumlahfitrahlabel').empty();
+                                            $('#jumlahtanggunganlabel').append('Jiwa ' + formatNumber(jumlahjiwa));
+                                            $('#jumlahtanggungan').val(jumlahjiwa);
+                                            $('#jumlahfitrahlabel').append('Rp ' + formatNumber(jumlahfitrah));
+                                            $('#jumlahfitrah').val(jumlahfitrah);
+                                        }
+
+                                        function bayarfitrah() {
+                                            var jiwa = $('#jumlahtanggungan').val();
+                                            var jumlah = $('#jumlahfitrah').val();
+                                            window.location = '../baznas.go.id/bayarzakat?jenis=fitrah&param1=' + jiwa + '&param2=&param3=&param4=&jumlah=' + jumlah;
+                                        }
+
+                                        function ulangfitrah() {
+                                            $('#fitrah').show();
+                                            $('#valuefitrah').hide();
+                                        }
+
+                                        function resetpenghasilan() {
+                                            $('#penghasilan').val('');
+                                            $('#valuepenghasilan').val('');;
+                                        }
+
+                                        function hitungpenghasilan() {
+                                            $('#penghasilan').hide();
+                                            $('#valuepenghasilan').show();
+                                            // var pendapatan = $('#pendapatan').val();
+                                            // var lainnya = $('#lainnya').val();
+                                            var pendapatan = $('#pendapatan').val().replace(/\D/g, '');
+                                            var lainnya = $('#lainnya').val().replace(/\D/g, '');
+
+                                            var total = Math.ceil((parseInt(pendapatan) + parseInt(lainnya)) * (0.025));
+                                            // alert(parseInt(pendapatan)+parseInt(lainnya));
+                                            $('#totalpendapatanlabel').empty();
+                                            $('#pendapatanlabel').empty();
+                                            $('#lainnyalabel').empty();
+
+                                            if (parseInt(pendapatan) + parseInt(lainnya) >= 6828806) {
+                                                $('#totalpendapatanlabel').append('Rp ' + formatNumber(total));
+                                                $('#bayarpenghasilan').show();
+                                                $('#bayarsedekah').hide();
+                                                $('#batasnishab').hide();
+                                            } else {
+                                                $('#batasnishab').show();
+                                                $('#totalpendapatanlabel').append('Rp 0');
+                                                $('#bayarpenghasilan').hide();
+                                                $('#bayarsedekah').show();
+                                            }
+
+                                            $('#pendapatanlabel').append('Rp ' + formatNumber(pendapatan));
+                                            $('#lainnyalabel').append('Rp ' + formatNumber(lainnya));
+
+                                        }
+
+                                        function bayarpenghasilan() {
+                                            var pendapatan = $('#pendapatan').val().replace(/\D/g, '');
+                                            var lainnya = $('#lainnya').val().replace(/\D/g, '');
+                                            var total = Math.ceil((parseInt(pendapatan) + parseInt(lainnya)) * (0.025));
+                                            window.location = '../baznas.go.id/bayarzakat?jenis=profesi&param1=' + pendapatan + '&param2=' + lainnya + '&param3=&param4=&jumlah=' + total;
+                                        }
+
+                                        function bayarSedekah() {
+                                            window.location = '../baznas.go.id/sedekahbaznas';
+                                        }
+
+                                        function ulangpenghasilan() {
+                                            $('#penghasilan').show();
+                                            $('#valuepenghasilan').hide();
+                                        }
+
+                                        function resetmaal() {
+                                            $('#emasperak').val('');
+                                            $('#tabungan').val('');
+                                            $('#kendaraan').val('');
+                                            $('#hutang').val('');
+                                        }
+
+                                        function hitungmaal() {
+                                            $('#maal').hide();
+                                            $('#valuemaal').show();
+                                            var emasperak = $('#emasperak').val().replace(/\D/g, '');
+                                            var tabungan = $('#tabungan').val().replace(/\D/g, '');
+                                            var kendaraan = $('#kendaraan').val().replace(/\D/g, '');
+                                            var hutang = $('#hutang').val().replace(/\D/g, '');
+
+                                            var total_maal = parseInt(emasperak) + parseInt(tabungan) + parseInt(kendaraan);
+                                            var total = Math.ceil(((parseInt(emasperak) + parseInt(tabungan) + parseInt(kendaraan)) - parseInt(hutang)) * (0.025));
+                                            // console.log(total_maal);
+                                            if (total_maal < 81945667) {
+                                                total = "Rp 0";
+                                                $('#batasnishabmaal').show();
+                                                $('#bayarsedekah_2').show();
+                                                $('#bayarmaal').hide();
+                                            } else {
+                                                if (isNaN(total)) {
+                                                    total = 0;
+                                                } else {
+                                                    total = 'Rp ' + formatNumber(total);
+                                                }
+                                                $('#bayarsedekah_2').hide();
+                                                $('#bayarmaal').show();
+                                            }
+
+                                            // if(isNaN(total)){
+                                            //     total = 0;
+                                            // }else{
+                                            //     if(total < 51000000){
+                                            //         // alert("Harta Anda Belum memenuhi Nisab");
+                                            //         total = "Harta Anda Belum memenuhi Nisab";
+                                            //     }
+                                            // }
+                                            $('#jumlahmaallabel').empty();
+                                            $('#emasperaklabel').empty();
+                                            $('#tabunganlabel').empty();
+                                            $('#kendaraanlabel').empty();
+                                            // $('#tabunganlabel').empty();
+                                            $('#hutanglabel').empty();
+                                            // $('#hutanglabel').append(total);
+                                            $('#jumlahmaallabel').append(total);
+                                            $('#emasperaklabel').append('Rp ' + formatNumber(emasperak));
+                                            $('#tabunganlabel').append('Rp ' + formatNumber(tabungan));
+                                            $('#kendaraanlabel').append('Rp ' + formatNumber(kendaraan));
+                                            // $('#tabunganlabel').append(tabungan);
+                                            $('#hutanglabel').append('Rp ' + formatNumber(hutang));
+                                        }
+
+                                        function bayarmaal() {
+                                            var pendapatan = $('#pendapatan').val().replace(/\D/g, '');
+                                            var lainnya = $('#lainnya').val().replace(/\D/g, '');
+                                            var emasperak = $('#emasperak').val().replace(/\D/g, '');
+                                            var tabungan = $('#tabungan').val().replace(/\D/g, '');
+                                            var kendaraan = $('#kendaraan').val().replace(/\D/g, '');
+                                            var hutang = $('#hutang').val().replace(/\D/g, '');
+
+                                            var total_maal = parseInt(emasperak) + parseInt(tabungan) + parseInt(kendaraan);
+                                            var total = Math.ceil(((parseInt(emasperak) + parseInt(tabungan) + parseInt(kendaraan)) - parseInt(hutang)) * (0.025));
+                                            if (total_maal < 81945667) {
+                                                total = "Harta Anda Belum memenuhi Nisab";
+                                            } else {
+                                                if (isNaN(total)) {
+                                                    total = 0;
+                                                } else {
+                                                    if ((emasperak + tabungan + kendaraan) < 81945667) {
+                                                        alert("Harta Anda Belum memenuhi Nisab");
+                                                        // total = "Harta Anda Belum memenuhi Nisab";
+                                                    } else {
+                                                        window.location = '../baznas.go.id/bayarzakat?jenis=maal&param1=' + emasperak + '&param2=' + tabungan + '&param3=' + kendaraan + '&param4=' + hutang + '&jumlah=' + total;
+                                                        // window.location = 'http://alpha13.pusat.baznas.go.id/bayarzakat?jenis=maal&param1='+emasperak+'&param2='+tabungan+'&param3='+kendaraan+'&param4='+hutang+'&jumlah='+total;
+                                                    }
+                                                }
+                                            }
+
+
+                                        }
+
+                                        function ulangmaal() {
+                                            $('#maal').show();
+                                            $('#valuemaal').hide();
+                                        }
+
+                                        function formatNumber(num) {
+                                            return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
+                                        }
+                                    </script>
+
+                                    <script type="text/javascript">
+                                        function hitungZakatProfesi() {
+                                            var pendapatanprofesi = 0.0;
+                                            // alert($('#pendapatanprofesi').val());
+                                            // alert($('#pendapatanprofesi').val() != '');
+                                            if ($('#pendapatanprofesi').val() != '') {
+                                                pendapatanprofesi = parseFloat($('#pendapatanprofesi').val().replace(/\./g, ""));
+                                            }
+
+                                            //alert(pendapatanprofesi);
+                                            var pendapatanlainprofesi = 0.0;
+                                            if ($('#pendapatanlainprofesi').val() != '') {
+                                                pendapatanlainprofesi = parseFloat($('#pendapatanlainprofesi').val().replace(/\./g, ""));
+                                            }
+                                            // alert(pendapatanprofesi+pendapatanlainprofesi+' * '+25/100);
+                                            var total = (pendapatanprofesi + pendapatanlainprofesi) * (0.025);
+                                            if (isNaN(total)) {
+                                                total = 0;
+                                            }
+                                            $('#hasilprofesi').val(total.toLocaleString().replace(/\,/g, "."));
+                                        }
+
+                                        function hitungMaalProfesi() {
+                                            var pendapatanmaal = parseFloat($('#pendapatanmaal').val().replace(/\./g, ""));
+                                            var pendapatanlainmaal = parseFloat($('#pendapatanlainmaal').val().replace(/\./g, ""));
+                                            var hutangmaal = parseFloat($('#hutangmaal').val().replace(/\./g, ""));
+                                            var total = ((pendapatanmaal + pendapatanlainmaal) - hutangmaal) * (0.025);
+                                            if (isNaN(total)) {
+                                                total = 0;
+                                            } else {
+                                                if ((pendapatanmaal + pendapatanlainmaal) < 51000000) {
+                                                    alert("Harta Anda Belum memenuhi Nisab");
+                                                    total = 0;
+                                                }
+                                            }
+
+                                            $('#hasilmaal').val(total.toLocaleString().replace(/\,/g, "."));
+                                        }
+
+                                        function hitungSaham() {
+                                            var assets5/aham = parseFloat($('#assets5/aham').val().replace(/\./g, ""));
+                                            //            alert($('#assets5/aham').val().replace(".", ""));
+                                            var sahamlembar = parseFloat($('#sahamlembar').val().replace(/\./g, ""));
+                                            var total = (assets5/aham * (0.025)) / (sahamlembar * 100);
+                                            if (isNaN(total)) {
+                                                total = 0;
+                                            }
+                                            //alert(total);
+                                            $('#hasilsaham').val(total.toLocaleString().replace(/\,/g, "."));
+                                        }
+
+                                        function hitungPerdagangan() {
+                                            var asetperdagangan = parseFloat($('#asetperdagangan').val().replace(/\./g, ""));
+                                            var hutangperdagangan = parseFloat($('#hutangperdagangan').val().replace(/\./g, ""));
+                                            // alert(asetperdagangan+' '+hutangperdagangan);
+                                            var total = (asetperdagangan - hutangperdagangan) * (0.025);
+                                            if (isNaN(total)) {
+                                                total = 0;
+                                            }
+                                            $('#hasilperdagangan').val(total.toLocaleString().replace(/\,/g, "."));
+                                        }
+
+
+
+                                        $(document).ready(function() {
+                                            $('input[data-mask]').each(function() {
+                                                var input = $(this);
+                                                input.setMask(input.data('mask'));
+                                            });
+                                            $(".tab-pane a").click(function() {
+                                                $(this).tab('show');
+                                            });
+                                            // jQuery('.numbersOnly').keyup(function () {  
+                                            //       this.value = this.value.replace(/[^0-9]/g,''); 
+                                            //   });
+                                        });
+                                    </script>
+
+
+                                </div>
+                            </div>
+
+
+
+                            <!-- </div> -->
+
+                        </div>
+                        <!-- Next Step -->
+                        <div class="col-md-6 col-md-offset-3" id="nextstep">
+                            <div class="text-center" style="margin-bottom: 10px;">
+
+                                <span style="font-family: 'Inter', sans-serif; font-weight: 650; font-size: 22px; color: #000000;">Metode Pembayaran</span> <br>
+                                <span style="font-family: 'Inter', sans-serif; color: #000000;">Silahkan pilih salah satu metode pembayaran
+              </span>
+                            </div>
+                            <div>
+
+                                <div class="segment-content-method">
+
+
+                                    <table class="table">
+                                        <thead class="thead-active">
+                                            <tr>
+                                                <th scope="col" colspan="4">
+                                                    <span class="labels-field">Online Payment</span>
+                                                    <!-- <font style="font-size: 20px; color: #000; font-family: 'Inter', sans-serif;"><b>Online Payment<b></font><br />
+                      <font style="font-family: 'Inter'">(Pembayaran menggunakan saldo digital)</font> -->
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="trgopayid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trgopayid', 'gopayid')">
+                                                <td style="width: 50px;text-align: center; ">
+                                                    <label class="radiolabel" for='gopayid'><img id="gopayimgid" src="../baznas.go.id//application/views/assets5/images/op/lggopay2.png" height="30"></label>
+                                                </td>
+
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>Gopay</span>
+                                                </td>
+                                                <td style="text-align: left;">
+                                                    <font></font>
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <input class="radioselect" type="radio" name="metode" id="gopayid" value="gopay" checked>
+                                                </td>
+                                            </tr>
+                                            <tr id="trovoid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trovoid', 'ovoid')">
+                                                <td style="width: 50px; text-align: center;">
+                                                    <label class="radiolabel" for='ovoid'><img id="ovoimgid" src="../baznas.go.id//application/views/assets5/images/op/lgovo2.png" height="30"></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="ovoid" value="ovo" checked> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>OVO</span>
+                                                </td>
+                                                <td style="text-align: left; vertical-align: middle;">
+                                                    <!-- <font><img class="xenditdisabledid ovodisabledid" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" /></font> -->
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                          <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="ovoid" value="ovo" checked>
+                          <!-- <img class="xenditdisabledid ovodisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg"> -->
+                        </label>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr id="trshoppeeid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trshoppeeid', 'shopeeid')">
+                                                <td style="width: 50px; text-align: center;">
+
+                                                    <label class="radiolabel" for='shoppeid'><img id="shopeeimgid" src="../baznas.go.id//application/views/assets5/images/op/lgshopee.png" height="30"></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="shopeeid" value="shopee" checked> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>ShopeePay</span>
+                                                </td>
+                                                <td style="text-align: left;">
+                                                    <font></font>
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <input class="radioselect" type="radio" name="metode" id="shopeeid" value="shopee" checked>
+                                                </td>
+                                            </tr>
+
+                                            <tr id="trlinkajaid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trlinkajaid', 'linkajaid')">
+                                                <td style="width: 50px; text-align: center;">
+
+                                                    <label class="radiolabel" for='linkajaid'><img id="linkajaimgid" src="../baznas.go.id//application/views/assets5/images/op/linkaja.png" height="30"></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="linkajaid" value="linkaja" checked> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>LinkAja</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                          <img class="linkajadisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                          <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="linkajaid" value="linkaja" checked>
+                        </label>
+                                                </td>
+                                            </tr>
+                                            <tr id="trlinkajasyariahid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trlinkajasyariahid', 'linkajasyariahid')">
+                                                <td style="width: 50px; text-align: center;">
+
+                                                    <label class="radiolabel" for='linkajasyariahid'><img id="linkajaimgid" src="../baznas.go.id//application/views/assets5/images/op/lglinkajasy2.png" height="30"></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="linkajasyariahid" value="linkaja" checked> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>LinkAja Syariah</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                          <img class="linkajadisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+
+                          <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="linkajasyariahid" value="linkaja" checked>
+                        </label>
+                                                </td>
+                                            </tr>
+                                            <tr id="trdanaid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trdanaid', 'danaid')">
+                                                <td style="width: 50px; text-align: center;">
+                                                    <label class="radiolabel" for='danaid'><img id="danaimgid" src="../baznas.go.id//application/views/assets5/images/op/lgdana2.png" height="30"></label>
+                                                </td>
+
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span class="table-cell">Dana</span>
+                                                </td>
+
+
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                        <!-- <img class="xenditdisabledid danadisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" /> -->
+                        <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="danaid" value="dana" checked>
+                      </label>
+                                                </td>
+                                            </tr>
+
+                                            <tr id="trjeniusid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trjeniusid', 'jeniusid')">
+                                                <td style="width: 50px; text-align: center;">
+
+                                                    <label class="radiolabel" for='jeniusid'><img id="jeniusimgid" src="../baznas.go.id//application/views/assets5/images/op/jenius2.png" height="30"></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="jeniusid" value="jenius" checked> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>Jenius Pay</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="disabledicon" id="linkjenid" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+
+                        <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="jeniusid" value="jenius" checked>
+                      </label>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="segment-content-method">
+                                    <table class="table">
+                                        <thead class="thead-active">
+                                            <tr>
+                                                <th scope="col" colspan="4">
+                                                    <span class="labels-field">Convenience Store</span>
+                                                    <br />
+                                                    <font style="font-family: 'Inter'; font-size:11px; color:#6C7074;" class="ver-text">Minimal pembayaran Rp25.000</font>
+
+                                                    <!-- <font style="font-size: 20px; color: #000; font-family: 'Inter', sans-serif;"><b>Convenience Store<b></font><br />
+                      <font style="font-family: 'Inter'">(Pembayaran di kasir dengan kode pembayaran)</font> -->
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="trindomaretid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trindomaretid', 'indomaretid')">
+                                                <td style="width: 250px;text-align: left; vertical-align: middle;">
+
+                                                    <label class="radiolabel" for='indomaretid'>
+
+                          <img id="indomaretimgid" src="../baznas.go.id//application/views/assets5/images/op/indomaret.png" style="width: 80px;">
+                          <img id="indomaretimgid" src="../baznas.go.id//application/views/assets5/images/op/logo_isaku.png" style="width: 80px;">
+                        </label>
+                                                </td>
+                                                <td style="text-align: left; width: 100px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>Indomaret</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                        <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="indomaretid" value="indomaret" checked>
+                        <img class="indomaretdisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+</label>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="segment-content-method">
+                                    <table class="table">
+                                        <thead class="thead-active">
+                                            <tr>
+                                                <th scope="col" colspan="4">
+                                                    <span class="labels-field">Bill Payment</span>
+                                                    <!-- <font style="font-size: 20px; color: #000; font-family: 'Inter', sans-serif;"><b>Bill Payment<b></font> -->
+                                                    <br />
+                                                    <font style="font-family: 'Inter'; font-size:11px; color:#6C7074;" class="ver-text">Minimal pembayaran Rp10.001</font>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="trmandiriid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trmandiriid', 'mandiriid')">
+                                                <td style="width: 100px;text-align: center;">
+
+                                                    <label class="radiolabel" for='mandiriid'><img class="bankimg" src="../baznas.go.id//application/views/assets5/images/rek/mandiri.png" height="30"></label>
+                                                    <!-- <input class="bank" style="visibility: hidden;" class="radioselect" type="radio" name="metode" id="mandiriid" value="mandiri"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>Bank Mandiri</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="bankdisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="bank" class="radioselect radioselectpembayaran" type="radio" name="metode" id="mandiriid" value="mandiri">
+                       </label>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="segment-content-method">
+                                    <table class="table">
+                                        <thead class="thead-active">
+                                            <tr>
+                                                <th scope="col" colspan="4">
+                                                    <span class="labels-field">Virtual Account</span>
+                                                    <!-- <font style="font-size: 20px; color: #000; font-family: 'Inter', sans-serif;"><b>Virtual Account<b></font> -->
+                                                    <br />
+                                                    <font style="font-family: 'Inter'; font-size:11px; color:#6C7074;" class="ver-text">Minimal pembayaran Rp10.001</font>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="trbcaid" style="height: 40px; padding-top:150px; padding-bottom:150px;" class="trpayment" onclick="setSelectedPayment('trbcaid', 'bcaid')">
+                                                <td style="width: 100px;text-align: center; vertical-align: middle;">
+
+                                                    <label class="radiolabel" for='bcaid'><img class="bankimg bankimgicon" src="../baznas.go.id//application/views/assets5/images/rek/bca.png" height="30"></label>
+                                                    <!-- <input class="bank" class="radioselect" type="radio" name="metode" id="bcaid" value="bca"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>BCA Virtual Account</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="bankdisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="bank" class="radioselect radioselectpembayaran" type="radio" name="metode" id="bcaid" value="bca">
+                      </label>
+                                                </td>
+                                            </tr>
+                                            <tr id="trbniid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trbniid', 'bniid')">
+                                                <td style="width: 100px;text-align: center; vertical-align: middle;">
+
+                                                    <label class="radiolabel" for='bniid'><img class="bankimg bankimgicon" src="../baznas.go.id//application/views/assets5/images/rek/bni.png"></label>
+                                                    <!-- <input class="bank" class="radioselect" type="radio" name="metode" id="bniid" value="bni"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>BNI Virtual Account<br> <span style="font-size: 11px; color:#A1A1A1">Menerima transfer dari bank lain</span></span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="bankdisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="bank" class="radioselect radioselectpembayaran" type="radio" name="metode" id="bniid" value="bni">
+                      </label>
+                                                </td>
+                                            </tr>
+                                            <tr id="trbriid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trbriid', 'briid')">
+                                                <td style="width: 100px;text-align: center; vertical-align: middle;">
+
+                                                    <label class="radiolabel" for='briid'><img class="bankimg bankimgicon" src="../baznas.go.id//application/views/assets5/images/bankbriva.png" ></label>
+                                                    <!-- <input class="bank" class="radioselect" type="radio" name="metode" id="briid" value="bri"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>BRI Virtual Account<br> <span style="font-size: 11px; color:#A1A1A1">Menerima transfer dari bank lain</span></span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="bankdisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="bank" class="radioselect radioselectpembayaran" type="radio" name="metode" id="briid" value="bri">
+                       </label></td>
+                                            </tr>
+                                            </tr>
+                                            <tr id="trpermataid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trpermataid', 'permataid')">
+                                                <td style="width: 100px;text-align: center; vertical-align: middle;">
+
+                                                    <label class="radiolabel" for='permataid'><img class="bankimg bankimgicon" src="../baznas.go.id//application/views/assets5/images/rek/permata.jpg"></label>
+                                                    <!-- <input class="bank" class="radioselect" type="radio" name="metode" id="permataid" value="permata"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>Permata Virtual Account<br> <span style="font-size: 11px; color:#A1A1A1">Menerima transfer dari bank lain</span></span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="bankdisabledid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="bank" class="radioselect radioselectpembayaran" type="radio" name="metode" id="permataid" value="permata"></label>
+                                                </td>
+                                            </tr>
+                                            <!-- <tr id="trbriid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trbriid', 'briid')">
+                  <td style="width: 100px;text-align: left;" >
+                    
+                    <label class="radiolabel" for='briid'><img class="bankimg" src="../baznas.go.id//application/views/assets5/images/briva.png" height="40"></label>
+                    <input class="bank" class="radioselect" type="radio" name="metode" id="briid" value="bri">
+                    </td>
+                  <td style="text-align: left; width: 140px;"><font>Bank BRI</font></td>
+                  <td style="text-align: left;"><font>
+                    <table>
+                      <tr>
+                        <td style="width: 40px;">
+                          <img class="bankdisabledid" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        </td>
+                        <td>
+                          <span style="font-size: 11px; color:#A1A1A1">Menerima transfer dari bank lain</span> 
+                        </td>
+                      </tr>
+                    </table></font></td>
+                </tr> -->
+                                            <tr id="trbsiid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trbsiid', 'bsiid')">
+                                                <td style="width: 100px;text-align: center; vertical-align: middle">
+
+                                                    <label class="radiolabel" for='bsiid'><img class="bankimg bankimgicon" src="../baznas.go.id//application/views/assets5/images/op/lgbsi.png"></label>
+                                                    <!-- <input class="bank bankbsiid" class="radioselect" type="radio" name="metode" id="bsiid" value="bsi"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>BSI Virtual Account</span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img class="bankdisabledid disabledicon" id="bsidisabledid" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="bank bankbsiid" class="radioselect" type="radio" name="metode" id="bsiid" value="bsi">
+                      </label></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="segment-content-method">
+                                    <table class="table">
+                                        <thead class="thead-active">
+                                            <tr>
+                                                <th scope="col" colspan="4">
+                                                    <span class="labels-field">Credit/Debit Card</span>
+                                                    <!-- <font style="font-size: 20px; color: #000; font-family: 'Inter', sans-serif;"><b>Kartu Kredit<b></font> -->
+                                                    <br />
+                                                    <font style="font-family: 'Inter'; font-size:11px; color:#6C7074;" class="ver-text">Minimal pembayaran Rp10.001</font>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="trcreditid" style="height: 40px;" class="trpayment" onclick="setSelectedPayment('trcreditid', 'creditid')">
+                                                <td style="width: 100px;text-align: center;">
+
+                                                    <label class="radiolabel" for='creditid'><img id="creditimgid" src="../baznas.go.id//application/views/assets5/images/op/logo-cc-new2.jpeg" style="width: 100px; "></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="creditid" value="credit"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>Credit/Debit Card <br> </span>
+                                                </td>
+                                                <td style="text-align: left; width: 1 rem; vertical-align: middle;">
+
+                                                </td>
+
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <label style="display: flex; flex-direction: column; align-items: center; float:right; position: relative;">
+                      <img id="linkccid" class="linkccid disabledicon" src="../baznas.go.id//application/views/assets5/images/disabled.jpg" />
+                        <input class="radioselect radioselectpembayaran" type="radio" name="metode" id="creditid" value="credit" onclick="commitmentpay()"></label>
+                                                </td>
+
+                                            </tr>
+                                            <tr id="commitment_credit" style="display:none;">
+                                                <td colspan="4" style="border-top: none !important;"><i style="font-size: 10px;">*Saya berkomitmen melunasi pembayaran kartu kredit sebelum jatuh tempo dan memiliki harta yang cukup untuk pembayaran Zakat/Infak</i></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="segment-content-method">
+                                    <table class="table" id="pointhere">
+                                        <thead class="thead-active">
+                                            <tr>
+                                                <th scope="col" colspan="4">
+                                                    <span class="labels-field">PayPal</span>
+                                                    <!-- <font style="font-size: 20px; color: #000; font-family: 'Inter', sans-serif;"><b>PayPal<b></font> -->
+                                                    <br />
+                                                    <font style="font-family: 'Inter'; font-size:11px; color:#6C7074;">Minimum payment $5</font>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr id="trpaypalid" style="height: 40px;" class="trpayment" onclick="window.location.href='../baznas.go.id/bayarzakat/paypal'">
+                                                <td style="width: 100px;text-align: center;">
+
+                                                    <label class="radiolabel" for='creditid'><img id="creditimgid" src="assets5/bayar_zakat/paypall.png" height="50"></label>
+                                                    <!-- <input class="radioselect" type="radio" name="metode" id="paypallid" value="paypal"> -->
+                                                </td>
+                                                <td style="text-align: left; width: 200px; vertical-align: middle; font-weight: 500;font-size: 16px; color:#000;">
+                                                    <span>PayPal</span>
+                                                </td>
+                                                <td style="text-align: left;">
+                                                    <font>
+                                                </td>
+                                                <td style="text-align: right; vertical-align: middle;">
+                                                    <input class="radioselect" type="radio" name="metode" id="paypallid" value="paypal">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div>
+                                <center>
+                                    <img class="doa" src="../baznas.go.id//application/views/assets5/images/niat.jpg" width="">
+                                    <img class="doazakatfitrah" src="../baznas.go.id//application/views/assets5/ramadhan/niatzakat.jpg" width="">
+                                    <img class="doafidyah" src="../baznas.go.id//application/views/assets5/images/niatfidyah.png" width="">
+                                    <img class="doakurban" src="../baznas.go.id//application/views/assets5/images/kbd/kbd/doa_kurban.png" width="">
+                                    <h6 class="text-center doa" style="font-family: 'Inter', sans-serif;">“Nawaitu an ukhrija zakata maali fardhan lillahi ta’aala.”</h6>
+                                    <h6 class="text-center doazakatfitrah" style="font-family: 'Inter', sans-serif;">“Nawaytu An Ukhrija Zakaata Al-fitri Anni Wa An Jami’i Ma Yalzimuniy Nafaqatuhum Syar’an Fardhan Lillahi Ta’ala”</h6>
+                                    <h6 class="text-center doafidyah" style="font-family: 'Inter', sans-serif;">“Nawaitu an ukhrija fidyatal murdhi’I Fardhaa Syar a’ lillaita’ala”</h6>
+                                    <p class="text-center mb-30 doa" style="font-size: 11px; font-family: 'Inter', sans-serif;">Aku niat mengeluarkan zakat hartaku fardhu karena Allah Ta’ala.</p>
+                                    <p class="text-center mb-30 doazakatfitrah" style="font-size: 11px; font-family: 'Inter', sans-serif;">“Aku Niat Mengeluarkan Zakat Fitrah Untuk Diriku Dan Seluruh Orang Yang Nafkahnya Menjadi Tanggunganku Fardhu Karena Allah Taala.”</p>
+                                    <p class="text-center mb-30 doafidyah" style="font-size: 11px; font-family: 'Inter', sans-serif;">“Saya niat membayar fidyah karena "hamil/sakit" lillahi ta'ala”</p>
+                                    <p class="text-center mb-30 doakurban" style="font-size: 11px; font-family: 'Inter', sans-serif;">“Ya Allah, hamba mohon terimalah kurban atas nama ... bin/binti ... Maka kabulkanlah Ya Allah wahai dzat Yang Maha pemurah”</p>
+                                </center>
+                            </div>
+                            <div class="form-group">
+                                <a href="#" id="back-button" class="btn btn-lg btn-block mt-5 mb-5 js-scroll-trigger" href="#" style="background: #F0F0F0; color: black; font-family: 'gotham-medium','Roboto Condensed', sans-serif; width: 48%; float: left;">Kembali</a>
+                                <a href="#" id="pay-button" class="btn btn-lg btn-block mt-5 mb-5 text-white js-scroll-trigger" href="#" style="background: #259047; font-family: 'gotham-medium','Roboto Condensed', sans-serif; width: 48%; float: right;">Bayar</a>
+                            </div>
+                        </div>
+
+                </form>
+                </div>
+
+            </div>
+
+            <div id="jenius" class="jenius">
+
+                <div class="container-fluid">
+                    <div class="modal fade jeniusmodal" id="myModaljenius" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class=" btn btn-secondary" type="button" onclick="closeDialogJenius();return false;" style="float: left;"><b>X</b></button>
+                                    <img style="width: 60px; height: 35px;" src="assets5/bayar_zakat/jenius/Baznas.png">
+                                    <h5 style="float: right;" style="line-height:120%" class="modal-title">Order Summary</h5>
+                                </div>
+
+
+                                <div class="modal-body" id="jeniusbody" style="background-color: #d0cecd;">
+                                    <!-- <ul style="list-style-type: circle; ">
+                    <h4 style="color: #12b263;">Jenius Pay</h4>
+                       <p align="left" style="line-height:120%" >Masukkan $Cashtag Anda </p>
+                        <input class="form-control" minlength="2" maxlength="13"  placeholder="$FaizMikail"
+                           id="jeniuscashtag" name="jeniuscashtag" onchange="" required="">
+
+                    <br/>
+                    <li style="margin-left:10px;" style="line-height:120%">Pembayaran dengan Jenius Pay hanya</p>
+                       <p align="left" style="line-height:120%">berlaku untuk Jenius User, pastikan akun</p>
+                       <p align="left" style="line-height:120%">Jenius-mu aktif</p>
+                    </li>
+                    <br>
+                     <li style="margin-left:10px;" style="line-height:120%">Anda bisa donwload aplikasi Jenius di</p>
+                     <p align="left" style="line-height:120%"><b>Apple App Store<b> atau <b>Google Play Store<b></p>
+
+                    <br>
+
+                    <img style="width: 96px; height: 25px;" src="assets5/bayar_zakat/jenius/Jenius_pay.png">
+                    <br/>
+                    <br/>
+                </ul> -->
+                                    <!--  <table class="table table-borderless">
+                  <tbody>
+                    <tr style="background-color: #f0f0f0;">
+                      <td colspan="2"><b>Pembayaran Instan</b></td>
+                    </tr>
+                    <tr style="vertical-align: center;">
+                      <td style="width: 60px;"><img style="width: 35px; height: 35px;" src="assets5/images/rek/logogopay.webp" /></td>
+                      <td><a href="#" onclick="payGopay(); return false;"><b>Gopay</b></a></td>
+                     </tr>
+                  </tbody>
+                </table> -->
+                                    <table class="table" style="background-color: #fff;">
+                                        <tbody>
+
+                                            <tr style="vertical-align: center; border-bottom: 5px solid #007ca7; ">
+                                                <td style="font-size: 20px;border: none; color: #007ca7;">Amount</td>
+                                                <td style="float: right;border: none; font-size: 35px;color: #007ca7;"><span id="jeniusnominal"></span></td>
+                                                <td style="font-size: 20px; float: right; padding-right: 10px;border: none;">Rp</td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table" style="background-color: #fff;">
+                                        <tbody>
+
+                                            <tr style="vertical-align: center; border-bottom: 5px solid #007ca7; ">
+                                                <td style="font-size: 15px;border: none;">#Your Cashtag</td>
+                                                <td colspan="2" style="float: right;border: none; font-size: 35px;"><input class="form-control" minlength="2" maxlength="13" placeholder="$FaizMikail" id="jeniuscashtag" name="jeniuscashtag" onchange="" required="">
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <table class="table" style="padding-top: 50px;background-color: #fff; border-bottom: 1px solid #000;">
+                                        <tbody>
+
+                                            <tr style="vertical-align: center; ">
+                                                <td style="font-size: 12px;border: none;"><b>Name</b></td>
+
+                                            </tr>
+                                            <tr style="vertical-align: center; ">
+                                                <td style="font-size: 15px;border: none;"><span id="jeniusname"></span></td>
+
+                                            </tr>
+                                            <tr style="vertical-align: center; ">
+                                                <td style="font-size: 12px;border: none;"><b>Handphone</b></td>
+
+                                            </tr>
+                                            <tr style="vertical-align: center; ">
+                                                <td style="font-size: 15px;border: none;"><span id="jeniushp"></span></td>
+
+                                            </tr>
+                                            <tr style="vertical-align: center; ">
+                                                <td style="font-size: 12px;border: none;"><b>Email</b></td>
+
+                                            </tr>
+                                            <tr style="vertical-align: center; ">
+                                                <td style="font-size: 15px;border: none;"><span id="jeniusemail"></span></td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="modal-footer" id="jeniusfooter">
+                                    <a href="#" onclick="payJenius();return false;" style=" float: left;; letter-spacing: 1.5px; color: #007ca7; background-color: #fff; font-size: 20px;"><b>Pay Now With &nbsp;<img style="width: 96px; height: 25px;" src="assets5/bayar_zakat/jenius/Jenius_pay.png"></b>
+
+                <!-- <span>
+                       <img src="assets5/bayar_zakat/jenius/arrow.png"> </img>
+                          </span>  -->
+              </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ovo" class="ovo">
+
+                <div class="container-fluid">
+                    <div class="modal fade ovomodal" id="myModalovo" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class=" btn btn-secondary" type="button" onclick="closeDialogOvo();return false;" style="float: left;"><b>X</b></button>
+                                    <img style="width: 60px; height: 35px;" src="assets5/bayar_zakat/jenius/Baznas.png">
+                                    <h5 style="float: right;" style="line-height:120%" class="modal-title">Order Summary</h5>
+                                </div>
+
+
+                                <div class="modal-body" id="jeniusbody" style="background-color: #d0cecd;">
+                                    <!-- <ul style="list-style-type: circle; ">
+                    <h4 style="color: #12b263;">Jenius Pay</h4>
+                       <p align="left" style="line-height:120%" >Masukkan $Cashtag Anda </p>
+                        <input class="form-control" minlength="2" maxlength="13"  placeholder="$FaizMikail"
+                           id="jeniuscashtag" name="jeniuscashtag" onchange="" required="">
+
+                    <br/>
+                    <li style="margin-left:10px;" style="line-height:120%">Pembayaran dengan Jenius Pay hanya</p>
+                       <p align="left" style="line-height:120%">berlaku untuk Jenius User, pastikan akun</p>
+                       <p align="left" style="line-height:120%">Jenius-mu aktif</p>
+                    </li>
+                    <br>
+                     <li style="margin-left:10px;" style="line-height:120%">Anda bisa donwload aplikasi Jenius di</p>
+                     <p align="left" style="line-height:120%"><b>Apple App Store<b> atau <b>Google Play Store<b></p>
+
+                    <br>
+
+                    <img style="width: 96px; height: 25px;" src="assets5/bayar_zakat/jenius/Jenius_pay.png">
+                    <br/>
+                    <br/>
+                </ul> -->
+                                    <!--  <table class="table table-borderless">
+                  <tbody>
+                    <tr style="background-color: #f0f0f0;">
+                      <td colspan="2"><b>Pembayaran Instan</b></td>
+                    </tr>
+                    <tr style="vertical-align: center;">
+                      <td style="width: 60px;"><img style="width: 35px; height: 35px;" src="assets5/images/rek/logogopay.webp" /></td>
+                      <td><a href="#" onclick="payGopay(); return false;"><b>Gopay</b></a></td>
+                     </tr>
+                  </tbody>
+                </table> -->
+                                    <table class="table" style="background-color: #fff;">
+                                        <tbody>
+
+                                            <tr style="vertical-align: center; border-bottom: 5px solid #483593; ">
+                                                <td style="font-size: 20px;border: none; color: #483593;"><img id="ovoimgid" src="../baznas.go.id//application/views/assets5/images/op/lgovo.jpg" height="35"></td>
+                                                <td style="font-size: 20px;border: none; color: #483593; vertical-align: center; padding-top: 3px;" id="ovobody"> Mohon selesaikan Pembayaran OVO anda</td>
+                                                <!--   <td style="float: right;border: none; font-size: 35px;color: #007ca7;""><span id="jeniusnominal"></span></td>
+                    <td style="font-size: 20px; float: right; padding-right: 10px;border: none;">Rp</td> -->
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!--  <table class="table" style="background-color: #fff;">
+                <tbody>
+
+                  <tr style="vertical-align: center; border-bottom: 5px solid #007ca7; ">
+                    <td style="font-size: 15px;border: none;">#Your Cashtag</td>
+                    <td colspan="2" style="float: right;border: none; font-size: 35px;"><input class="form-control" minlength="2" maxlength="13"  placeholder="$FaizMikail"
+                           id="jeniuscashtag" name="jeniuscashtag" onchange="" required="">
+                         </td>
+
+                   </tr>
+                </tbody>
+                </table> -->
+
+                                    <!-- <table class="table" style="padding-top: 50px;background-color: #fff; border-bottom: 1px solid #000;">
+                <tbody>
+
+                  <tr style="vertical-align: center; ">
+                    <td style="font-size: 12px;border: none;"><b>Name</b></td>
+
+                   </tr>
+                   <tr style="vertical-align: center; ">
+                    <td style="font-size: 15px;border: none;"><span id="jeniusname"></span></td>
+
+                   </tr>
+                   <tr style="vertical-align: center; ">
+                    <td style="font-size: 12px;border: none;"><b>Handphone</b></td>
+
+                   </tr>
+                   <tr style="vertical-align: center; ">
+                    <td style="font-size: 15px;border: none;"><span id="jeniushp"></span></td>
+
+                   </tr>
+                   <tr style="vertical-align: center; ">
+                    <td style="font-size: 12px;border: none;"><b>Email</b></td>
+
+                   </tr>
+                   <tr style="vertical-align: center; ">
+                    <td style="font-size: 15px;border: none;"><span id="jeniusemail"></span></td>
+
+                   </tr>
+                </tbody>
+                </table> -->
+                                </div>
+                                <div class="modal-footer" id="ovofooter">
+                                    <!--  <a href="#" onclick="payJenius();return false;" style=" float: left;; letter-spacing: 1.5px; color: #007ca7; background-color: #fff; font-size: 20px;"  ><b>Pay Now With &nbsp;<img style="width: 96px; height: 25px;" src="assets5/bayar_zakat/jenius/Jenius_pay.png"></b> -->
+
+                                    <!-- <span>
+                       <img src="assets5/bayar_zakat/jenius/arrow.png"> </img>
+                          </span>  -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bsimodalid" class="bsimodalclass">
+
+                <div class="container-fluid">
+                    <div class="modal fade bsimodal" id="myModalbsi" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class=" btn btn-secondary" type="button" onclick="closeDialogBsi();return false;" style="float: left;"><b>X</b></button>
+                                    <img style="width: 90px; height: 45px; padding-left: 20px;" src="../baznas.go.id//application/views/assets5/images/rek/bsi.jpg">
+                                    <h5 style="float: right;" style="line-height:120%" class="modal-title">Order Summary</h5>
+                                    <input type="hidden" name="strukhid" value="" id="strukhid" />
+                                </div>
+
+
+                                <div class="modal-body" id="bsimodalbody" style="background-color: #d0cecd;">
+
+                                    <table id="pdfbsiid" class="table" style="background-color: #fff;">
+
+                                        <tr>
+                                            <td><span style="float: right; padding-right: 10px;"></span></td>
+                                        </tr>
+                                        <tr style="vertical-align: center; border-bottom: 5px solid #358584; ">
+                                            <td style="font-size: 20px;border: none; color: #358584; vertical-align: center; padding-top: 3px;" id="">Detail Pembayaran VA BSI:</td>
+
+
+                                        </tr>
+                                        <tr class="strukbsiid">
+                                            <td id="bsiresultid">
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div id="tabs">
+                                                    <ul>
+                                                        <li><a href="#tabs-1">Pembayaran Melalui ATM BSI</a></li>
+                                                        <li><a href="#tabs-2">Pembayaran Melalui BSI Mobile</a></li>
+                                                    </ul>
+                                                    <div id="tabs-1">
+                                                        <p>
+                                                            <table>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">1.</td>
+                                                                    <td>Pilih Menu Payment/Pembayaran/Pembelian.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">2.</td>
+                                                                    <td>Pilih Akademik/Institusi/Wakaf</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">3.</td>
+                                                                    <td>Masukkan kode atau nama institusi dan Masukkan Nomor Pembayaran. Format 9009008xxxxxxxxxx (9009008 = kode institusi, xxxxxxxxxx = nomor pembayaran / virtual account/NPM) contoh: 90090081234567890</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">4.</td>
+                                                                    <td>Tekan tombol Benar/Selanjutnya.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">5.</td>
+                                                                    <td>Kemudian tampil informasi data transaksi anda, pastikan data sudah benar.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">6.</td>
+                                                                    <td>Jika data sudah benar pilih BENAR/YA</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">7.</td>
+                                                                    <td>Selanjutnya akan tampil informasi transaksi transfer Anda Berhasil atau Gagal dan bukti transaksi akan keluar jika berhasil</td>
+                                                                </tr>
+                                                            </table>
+                                                        </p>
+                                                    </div>
+                                                    <div id="tabs-2">
+                                                        <p>
+                                                            <table>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">1.</td>
+                                                                    <td>Pilih Menu Pembayaran.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">2.</td>
+                                                                    <td>Pilih Berbagi - Ziswaf</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">3.</td>
+                                                                    <td>Pilih BAZNAS</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">4.</td>
+                                                                    <td>Masukkan Nomor VA yang di informasikan di Website BAZNAS</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">5.</td>
+                                                                    <td>Masukan PIN</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">6.</td>
+                                                                    <td>Tekan tombol Selanjutnya untuk Submit</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="vertical-align: top;">7.</td>
+                                                                    <td>Akan keluar bukti transaksi jika berhasil</td>
+                                                                </tr>
+                                                            </table>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+
+                                </div>
+                                <div class="modal-footer" id="bsifooter">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="indomaret" class="indomaret">
+
+                    <div class="container-fluid">
+                        <div class="modal fade indomaretmodal" id="myModalindomaret" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class=" btn btn-secondary" type="button" onclick="closeDialogIndomaret();return false;" style="float: left;"><b>X</b></button>
+                                        <img style="width: 90px; height: 45px; padding-left: 20px;" src="assets5/images/op/indomaret.png">
+                                        <img style="height: 45px;" src="assets5/images/op/logo_isaku.png">
+                                        <h5 style="float: right;" style="line-height:120%" class="modal-title">Order Summary</h5>
+                                        <input type="hidden" name="strukhid" value="" id="strukhid" />
+                                    </div>
+
+
+                                    <div class="modal-body" id="indomaretbody" style="background-color: #d0cecd;">
+
+                                        <table id="pdfindomaretid" class="table" style="background-color: #fff;">
+
+                                            <tr>
+                                                <td><span style="float: right; padding-right: 10px;"></span></td>
+                                            </tr>
+                                            <tr style="vertical-align: center; border-bottom: 5px solid #244CBD; ">
+                                                <td style="font-size: 20px;border: none; color: #244CBD; vertical-align: center; padding-top: 3px;" id="">Detail Pembayaran di Kasir Indomaret:</td>
+
+
+                                            </tr>
+                                            <tr class="strukindomaret">
+                                                <td id="indomaretresultid">
+
+                                                </td>
+                                            </tr>
+
+                                        </table>
+
+                                    </div>
+                                    <div class="modal-footer" id="indomaretfooter">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="wlinkaja" class="wlinkajac">
+
+                    <div class="container-fluid">
+                        <div class="modal fade linkajamodal" id="myModallinkaja" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class=" btn btn-secondary" type="button" onclick="closeDialogLinkaja();return false;" style="float: left;"><b>X</b></button>
+                                        <img style="width: 60px; height: 45px; padding-left: 20px;" src="../baznas.go.id//application/views/assets5/linkaja.png">
+                                        <h5 style="float: right;" style="line-height:120%" class="modal-title">Order Summary</h5>
+                                    </div>
+
+
+                                    <div class="modal-body" id="linkajabody" style="background-color: #d0cecd;">
+                                        <table id="linkajabodyid" class="table" style="background-color: #fff;">
+                                            <tr>
+                                                <td><span style="float: right; padding-right: 10px;"></span></td>
+                                            </tr>
+                                            <tr style="vertical-align: center; border-bottom: 5px solid #E82428; ">
+                                                <td colspan="2" style="font-size: 20px;border: none; color: #E82428; vertical-align: center; padding-top: 3px;" id="">Detail Pembayaran Link AJA:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total Bayar</td>
+                                                <td>Rp.<span id="NOMINALS"></span></td>
+                                            </tr>
+                                        </table>
+                                        <!-- <form action="https://staging.doku.com/Suite/Receive" id="MerchatPaymentPage" name="MerchatPaymentPage" method="post" > -->
+                                        <form action="https://pay.doku.com/Suite/Receive" id="MerchatPaymentPage" name="MerchatPaymentPage" method="post">
+
+                                            <input name="BASKET" type="hidden" id="BASKET" value="Item" />
+                                            <input name="MALLID" type="hidden" id="MALLID" value="9684" size="12" />
+                                            <input name="CHAINMERCHANT" type="hidden" id="CHAINMERCHANT" value="NA" size="12" /></td>
+                                            <input name="CURRENCY" type="hidden" id="CURRENCY" value="360" size="3" maxlength="3" /></td>
+                                            <input name="PURCHASECURRENCY" type="hidden" id="PURCHASECURRENCY" value="360" size="3" maxlength="3" /></td>
+                                            <input name="AMOUNT" type="hidden" id="AMOUNT" value="" size="12" /></td>
+                                            <input name="PURCHASEAMOUNT" type="hidden" id="PURCHASEAMOUNT" value="" size="12" />
+                                            <input name="TRANSIDMERCHANT" type="hidden" id="TRANSIDMERCHANT" value="" size="16" />
+                                            <input name="SHAREDKEY" type="hidden" id="SHAREDKEY" value="" size="15" maxlength="12" />
+                                            <input type="hidden" id="WORDS" name="WORDS" size="60" />
+                                            <input name="REQUESTDATETIME" type="hidden" id="REQUESTDATETIME" size="14" maxlength="14" />
+                                            <input type="hidden" id="SESSIONID" name="SESSIONID" />
+                                            <input type="hidden" id="PAYMENTCHANNEL" name="PAYMENTCHANNEL" value="50" />
+                                            <input name="EMAIL" type="hidden" id="EMAIL" value="" size="12" />
+                                            <input name="NAME" type="hidden" id="NAME" value="" size="30" maxlength="50" />
+                                            <input name="ADDRESS" type="hidden" id="ADDRESS" value="" size="50" maxlength="50" />
+                                            <input name="COUNTRY" type="hidden" id="COUNTRY" value="360" size="50" maxlength="50" />
+                                            <input name="STATE" type="hidden" id="STATE" value="" size="50" maxlength="50" />
+                                            <input name="CITY" type="hidden" id="CITY" value="" size="50" maxlength="50" />
+                                            <input name="PROVINCE" type="hidden" id="PROVINCE" value="" size="50" maxlength="50" />
+                                            <input name="ZIPCODE" type="hidden" id="ZIPCODE" value="" size="6" maxlength="10" />
+                                            <input name="HOMEPHONE" type="hidden" id="HOMEPHONE" value="" size="12" maxlength="20" />
+                                            <input name="MOBILEPHONE" type="hidden" id="MOBILEPHONE" value="" size="12" maxlength="20" />
+                                            <input name="WORKPHONE" type="hidden" id="WORKPHONE" value="" size="12" maxlength="20" />
+                                            <input name="BIRTHDATE" type="hidden" id="BIRTHDATE" value="" size="12" maxlength="8" /></td>
+
+                                            <input name="submit" type="submit" class="bt_submit" id="submit" value="Lanjut Pembayaran" />
+                                        </form>
+
+                                    </div>
+                                    <div class="modal-footer" id="indomaretfooter">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="wlinkaja" class="wclinkaja">
+
+                    <div class="container-fluid">
+                        <div class="modal fade linkajamodal" id="myModallinkaja" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class=" btn btn-secondary" type="button" onclick="closeDialogIndomaret();return false;" style="float: left;"><b>X</b></button>
+                                        <img style="width: 90px; height: 45px; padding-left: 20px;" src="assets5/linkaja.png">
+                                        <!-- <img style="height: 45px;" src="assets5/images/op/logo_isaku.png"> -->
+                                        <h5 style="float: right;" style="line-height:120%" class="modal-title">Order Summary</h5>
+                                        <!-- <input type="hidden" name="strukhid" value="" id="strukhid" /> -->
+                                    </div>
+
+
+                                    <div class="modal-body" id="linkajabody" style="background-color: #d0cecd;">
+                                        <!-- <table class="table" style="background-color: #fff;">
+                    <tbody>
+
+                      <tr style="vertical-align: center; border-bottom: 5px solid #483593; ">
+                        <td style="font-size: 20px;border: none; color: #483593; vertical-align: center; padding-top: 3px;">  Pilih Lanjutkan untuk membayar:</td>
+
+                       </tr>
+                       <tr style="vertical-align: center; border-bottom: 5px solid #483593; ">
+                        <td style="font-size: 20px;border: none; color: #483593; vertical-align: center; padding-top: 3px;">  Nominal Pembayaran</td>
+                        <td style="font-size: 20px;border: none; color: #483593; vertical-align: center; padding-top: 3px;">  Nominal Pembayaran</td>
+                       </tr>
+                    </tbody>
+                    </table> -->
+                                        <form action="https://staging.doku.com/Suite/Receive" id="MerchatPaymentPage" name="MerchatPaymentPage" method="post">
+
+                                            <input name="BASKET" type="hidden" id="BASKET" value="Item" />
+                                            <input name="MALLID" type="hidden" id="MALLID" value="9684" size="12" />
+                                            <input name="CHAINMERCHANT" type="hidden" id="CHAINMERCHANT" value="NA" size="12" /></td>
+                                            <input name="CURRENCY" type="hidden" id="CURRENCY" value="360" size="3" maxlength="3" /></td>
+                                            <input name="PURCHASECURRENCY" type="hidden" id="PURCHASECURRENCY" value="360" size="3" maxlength="3" /></td>
+                                            <input name="AMOUNT" type="hidden" id="AMOUNT" value="" size="12" /></td>
+                                            <input name="PURCHASEAMOUNT" type="hidden" id="PURCHASEAMOUNT" value="" size="12" />
+                                            <input name="TRANSIDMERCHANT" type="hidden" id="TRANSIDMERCHANT" value="opR4fqbQbD8q" size="16" />
+                                            <!-- <input name="SHAREDKEY" type="hidden" id="SHAREDKEY" value="" size="15" maxlength="12"/> -->
+                                            <input type="hidden" id="WORDS" name="WORDS" size="60" />
+                                            <input name="REQUESTDATETIME" type="hidden" id="REQUESTDATETIME" size="14" maxlength="14" />
+                                            <input type="hidden" id="SESSIONID" name="SESSIONID" />
+                                            <input type="hidden" id="PAYMENTCHANNEL" name="PAYMENTCHANNEL" value="" />
+                                            <input name="EMAIL" type="hidden" id="EMAIL" value="" size="12" />
+                                            <input name="NAME" type="hidden" id="NAME" value="" size="30" maxlength="50" />
+                                            <input name="ADDRESS" type="hidden" id="ADDRESS" value="" size="50" maxlength="50" />
+                                            <input name="COUNTRY" type="hidden" id="COUNTRY" value="360" size="50" maxlength="50" />
+                                            <input name="STATE" type="hidden" id="STATE" value="" size="50" maxlength="50" />
+                                            <input name="CITY" type="hidden" id="CITY" value="" size="50" maxlength="50" />
+                                            <input name="PROVINCE" type="hidden" id="PROVINCE" value="" size="50" maxlength="50" />
+                                            <input name="ZIPCODE" type="hidden" id="ZIPCODE" value="" size="6" maxlength="10" />
+                                            <input name="HOMEPHONE" type="hidden" id="HOMEPHONE" value="" size="12" maxlength="20" />
+                                            <input name="MOBILEPHONE" type="hidden" id="MOBILEPHONE" value="" size="12" maxlength="20" />
+                                            <input name="WORKPHONE" type="hidden" id="WORKPHONE" value="" size="12" maxlength="20" />
+                                            <input name="BIRTHDATE" type="hidden" id="BIRTHDATE" value="" size="12" maxlength="8" /></td>
+
+                                            <input name="submit" type="submit" class="bt_submit" id="submit" value="SUBMIT" />
+                                        </form>
+
+                                    </div>
+                                    <div class="modal-footer" id="linkajafooter">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+                        <script src="https://unpkg.com/jspdf-autotable@3.5.14/dist/jspdf.plugin.autotable.js"></script>
+                        <script src="https://app.midtrans.com/snap/snap.js" data-client-key="Mid-client-vMy1tGPyQuXXYoRf"></script>
+                        <!-- <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-BsjLYcXUEHpb0LNj"></script> -->
+                        <script type="text/javascript">
+                            var jenis = '';
+                            var nominal = '0';
+                            var is_zakat_fitrah_close = '1';
+                            $(document).ready(function() {
+                                $("#tabs").tabs();
+                                new ClipboardJS('.btn');
+                                // $('#nominal').val(nominal);
+                                if (jenis == 'zakatfitrah') {
+                                    $("#zakatfitrahgroup").show();
+                                } else {
+                                    $("#zakatfitrahgroup").hide();
+                                }
+                                new ClipboardJS('.btn');
+
+                            });
+                        </script>
+
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+                        <script src="js/bayarzakat_decode.js?ver=680"></script>
+
+                        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+                        <!-- <script>
+          window.addEventListener("load", function() {
+            window.cookieconsent.initialise({
+              "palette": {
+                "popup": {
+                  "background": "#edeff5",
+                  "text": "#838391"
+                },
+                "button": {
+                  "background": "#005331"
+                }
+              },
+              "position": "bottom-left",
+              "content": {
+                "message": "Situs web ini menggunakan cookies untuk meningkatkan pengalaman pengguna. Dengan mengklik OK, Anda menyetujui penggunaan cookies.",
+                "dismiss": "OK",
+                "link": "Pelajari Lebih Lanjut",
+                "href": "/kebijakan-privasi"
+              }
+            })
+          });
+        </script> -->
+
+                        <script>
+                            function openTab(evt, tabName) {
+                                var i, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablinks");
+                                for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].classList.remove("active");
+                                }
+                                document.getElementById(tabName).style.display = "block";
+                                evt.currentTarget.classList.add("active");
+                            }
+                        </script>
+
+                        <script>
+                            // Fungsi untuk menyimpan cookies
+                            function setCookie(name, value, days) {
+                                var expires = "";
+                                if (days) {
+                                    var date = new Date();
+                                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                                    expires = "; expires=" + date.toUTCString();
+                                }
+                                document.cookie = name + "=" + (value || "") + expires + "; path=/";
+                            }
+
+                            // Fungsi untuk mengambil cookies
+                            function getCookie(name) {
+                                var nameEQ = name + "=";
+                                var ca = document.cookie.split(';');
+                                for (var i = 0; i < ca.length; i++) {
+                                    var c = ca[i];
+                                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                                }
+                                return null;
+                            }
+
+                            // Fungsi untuk mengisi form dengan data yang tersimpan di cookies
+                            function fillFormFromCookies() {
+                                var nameInput = document.getElementById("name");
+                                var titleInputs = document.getElementsByName("user_title");
+                                var emailInput = document.getElementById("email");
+                                var handphoneInput = document.getElementById("handphone");
+
+                                var name = getCookie("user_name");
+                                var title = getCookie("user_title");
+                                var email = getCookie("email");
+                                var handphone = getCookie("handphone");
+
+                                if (name) {
+                                    nameInput.value = name;
+                                }
+
+                                if (title) {
+                                    for (var i = 0; i < titleInputs.length; i++) {
+                                        if (titleInputs[i].value === title) {
+                                            titleInputs[i].checked = true;
+                                            break;
+                                        }
+                                    }
+                                }
+
+                                // Panggil fungsi untuk memuat nilai radio button dari cookie
+                                // loadRadioValueFromCookie();
+
+                                if (email) {
+                                    emailInput.value = email;
+                                }
+
+                                if (handphone) {
+                                    handphoneInput.value = handphone;
+                                }
+                            }
+
+                            // Fungsi untuk menyimpan preferensi pengguna ke cookies
+                            function saveUserPreferences() {
+                                var cookiesCheckbox = document.getElementById("cookies");
+                                var nameInput = document.getElementById("name");
+                                var emailInput = document.getElementById("email");
+                                var handphoneInput = document.getElementById("handphone");
+                                var titleInputs = document.getElementsByName("user_title");
+
+                                // Simpan preferensi cookies
+                                if (cookiesCheckbox.checked) {
+                                    setCookie("cookies_accepted", "true", 365);
+                                    // Simpan data pengguna
+                                    setCookie("user_name", nameInput.value, 365);
+                                    setCookie("email", emailInput.value, 365);
+                                    setCookie("handphone", handphoneInput.value, 365);
+                                    for (var i = 0; i < titleInputs.length; i++) {
+                                        if (titleInputs[i].checked) {
+                                            setCookie("user_title", titleInputs[i].value, 365);
+                                            break;
+                                        }
+                                    }
+
+                                    var radioButtons = document.querySelectorAll('input[name="user_title"]');
+                                    for (var i = 0; i < radioButtons.length; i++) {
+                                        radioButtons[i].addEventListener("click", saveRadioValueToCookie);
+                                    }
+
+                                } else {
+                                    setCookie("cookies_accepted", "false", 365);
+                                }
+
+
+                            }
+
+                            // Fungsi untuk memeriksa apakah cookies sudah diterima sebelumnya
+                            function hasAcceptedCookies() {
+                                return getCookie("cookies_accepted") === "true";
+                            }
+
+                            // Fungsi untuk menghapus cookies
+                            function deleteCookies() {
+                                setCookie("cookies_accepted", "", -1);
+                                setCookie("user_name", "", -1);
+                                setCookie("user_title", "", -1);
+                                setCookie("email", "", -1);
+                                setCookie("handphone", "", -1);
+                            }
+
+                            // Fungsi untuk menampilkan atau menyembunyikan div preference_data
+                            function togglePreferenceDiv() {
+                                var preferenceDiv = document.getElementById("preference_data");
+                                preferenceDiv.style.display = hasAcceptedCookies() ? "none" : "block";
+                            }
+
+                            // Fungsi untuk menyimpan nilai radio button pada cookie
+                            function saveRadioValueToCookie() {
+                                var radioButtons = document.querySelectorAll('input[name="user_title"]');
+                                for (var i = 0; i < radioButtons.length; i++) {
+                                    if (radioButtons[i].checked) {
+                                        setCookie("user_title", radioButtons[i].value, 365);
+                                        break;
+                                    }
+                                }
+                            }
+
+                            // Fungsi untuk memuat nilai radio button dari cookie
+                            function loadRadioValueFromCookie() {
+                                var radioButtons = document.querySelectorAll('input[name="user_title"]');
+                                var userTitle = getCookie("user_title");
+                                for (var i = 0; i < radioButtons.length; i++) {
+                                    if (radioButtons[i].value === userTitle) {
+                                        radioButtons[i].checked = true;
+                                        break;
+                                    }
+                                }
+                            }
+
+                            // Tambahkan event listener untuk radio button "Bapak" dan "Ibu"
+                            var radioButtons = document.querySelectorAll('input[name="user_title"]');
+                            for (var i = 0; i < radioButtons.length; i++) {
+                                radioButtons[i].addEventListener("click", saveRadioValueToCookie);
+                            }
+
+                            // Tambahkan event listener untuk tombol next-button
+                            var nextButton = document.getElementById("next-button");
+                            nextButton.addEventListener("click", function(event) {
+                                // event.preventDefault();
+                                if (document.getElementById("cookies").checked) { // Jika user menyetujui penggunaan cookies
+                                    saveUserPreferences();
+                                }
+                                // window.location.href = "halaman_pembayaran.html"; // Redirect ke halaman pembayaran
+                            });
+
+                            // Load preferences dari cookies dan tampilkan pada form
+                            window.addEventListener("load", function() {
+                                togglePreferenceDiv();
+                                fillFormFromCookies();
+                            });
+                        </script>
+
+                        <script>
+                            function commitmentpay() {
+                                $('#commitment_credit').removeAttr("style");
+                            }
+                        </script>
+
+                        <script>
+                            function zakatmaalchoosed() {
+                                $('#opt-zakat-maal').addClass("active-calc");
+                                $('#opt-zakat-penghasilan').removeClass("active-calc");
+
+                                $('#penghasilan').hide();
+                                $('#valuepenghasilan').hide();
+                                $('#maal').show();
+                                $('#valuemaal').hide();
+
+                            }
+
+                            function zakathasilchoosed() {
+                                $('#opt-zakat-penghasilan').addClass("active-calc");
+                                $('#opt-zakat-maal').removeClass("active-calc");
+
+                                $('#penghasilan').show();
+                                $('#valuepenghasilan').hide();
+                                $('#maal').hide();
+                                $('#valuemaal').hide();
+                            }
+
+                        </script>
+
+                        <script>
+                            const inputElements = document.querySelectorAll('.numbersOnly');
+
+                            inputElements.forEach(function(inputElement) {
+                                inputElement.addEventListener('input', function(e) {
+                                    // Ambil nilai input dari pengguna
+                                    let input = e.target.value;
+
+                                    // Hilangkan karakter selain angka
+                                    input = input.replace(/\D/g, '');
+
+                                    // Format input menjadi string yang terpisah titik per tiga digit dan tambahkan "Rp" di depan
+                                    input = "Rp " + parseInt(input, 10).toLocaleString('id-ID');
+
+                                    // Masukkan nilai terformat ke dalam input
+                                    e.target.value = input;
+                                });
+                            });
+                        </script>
+
+                        <!-- Footer -->
+    <footer id="footer" class="footer pb-0">
+        <div class="footer" style="background-color:#005331; padding: 30px 10px 10px;">
+
+            <div class="container">
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12 wow fadeInUp m-auto text-center" data-wow-offset="0" data-wow-delay="0.2s">
+
+                    <!-- <h3>&nbsp;</h3> -->
+
+                    <img class="" style="width: 150px; height: auto; vertical-align: middle; border-style: none; padding: 30px 0px;" src="https://baznasjombang.id/wp-content/uploads/2020/12/logo_baznasJombang_5009-300x300-1-300x288.png">
+
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-12 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.4s" style="color:white">
+
+                    <h2 style="margin-bottom: 30px; color:white">Layanan </h2>
+
+                    <ul class="list-unstyled" style="margin-bottom: 30px; color: white;">
+
+                        <li>Bayar Zakat</li>
+
+                        <li>Donasi</li>
+
+                        <li>Infaq</li>
+
+                        <li>Sedekah</li>
+
+                        <li>Kalkulator Zakat</li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+
+                    <h2 style="margin-bottom: 30px; color:white">Contact Info</h2>
+
+                    <ul class="list-unstyled" style="margin-bottom: 30px; color: white;">
+
+                        <li><i class="fa fa-home"></i> &nbsp; Gedung Islamic Center Lt.2 Komplek Masjid Baitul Mukmin Jombang</li>
+
+                        <li><i class="fa fa-phone"></i> &nbsp; 0821-3104-5454</li>
+
+                        <li><i class="fa fa-envelope"></i> &nbsp; baznasjbg@gmail.com</li>
+
+                    </ul>
+
+                    <ul class="social-network list-unstyled" style="margin-bottom: 30px;">
+
+                        <li class="facebook">
+
+                            <a href="https://www.facebook.com/Baznasjombang.id " data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a>
+
+                        </li>
+
+                        <li class="twitter">
+
+                            <a href="https://twitter.com/baznasjombang" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a>
+
+                        </li>
+
+                        <li class="youtube">
+
+                            <a href="https://www.youtube.com/channel/UCwvSlyxJRiiEMyoSpzU6M7A   " data-placement="top" title="Youtube"><i class="fa fa-youtube fa-1x"></i></a>
+
+                        </li>
+
+                        <li class="instagram">
+
+                            <a href="https://www.instagram.com/baznas.jombang" data-placement="top" title="Instagram"><i class="fa fa-instagram fa-1x"></i></a>
+
+                        </li>
+
+                        <!-- <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li> -->
+
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="sub-footer" style="background-color: #005331; color: white;">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <center>
+
+                            &copy; Copyright <a href="https://www.nusacomtech.co.id"><b style="color: white;">NUSANTARA COMPUTECH</b></a> . All Rights Reserved. <br>
+
+                        </a>
+
+                        </center>
+
+                    </div>
+
+                </div>
+
+                <div class="pull-right">
+
+                    <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+                        <a id="btnbayarzakatid" href="../baznas.go.id/bayarzakat" style="position: fixed; bottom: 0; z-index: 9999; font-family: 'Roboto Condensed', sans-serif; font-weight: bold; background-color: red; height: 50px; " class="btn btn-block btn-flat text-white btn-sm mt-20 pt-10 pb-10 visible-xs visible-sm"
+                            role="button">BAYAR ZAKAT</a>
+
+                        <script>
+                            $('#survey').delay(5000).fadeIn('slow');
+                        </script>
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64522324-8"></script>
+                        <script>
+                            window.dataLayer = window.dataLayer || [];
+
+                            function gtag() {
+                                dataLayer.push(arguments);
+                            }
+                            gtag('js', new Date());
+
+                            gtag('config', 'UA-64522324-8');
+                            gtag('config', 'AW-716789107');
+                            // function for Google analytic 
+                            function gtag_report_conversion(url) {
+                                var callback = function() {
+                                    if (typeof(url) != 'undefined') {
+                                        window.location = url;
+                                    }
+                                };
+                                gtag('event', 'conversion', {
+                                    'send_to': 'AW-777219646/5oU5CIfw_8wCEL7czfIC',
+                                    'transaction_id': '',
+                                    'event_callback': callback
+                                });
+
+                                gtag('event', 'conversion', {
+                                    'send_to': 'AW-716789107/exIBCKLX1tUCEPOq5dUC',
+                                    'transaction_id': '',
+                                    'event_callback': callback
+                                });
+                                return false;
+                            }
+                        </script>
+                        
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+
+    </html>
